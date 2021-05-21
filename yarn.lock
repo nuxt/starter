@@ -1129,9 +1129,9 @@
     ufo "^0.7.4"
 
 "@nuxt/telemetry@^1.3.3":
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/@nuxt/telemetry/-/telemetry-1.3.5.tgz#095889a7bf49d509e2c74b34a606079d1432e32b"
-  integrity sha512-kJ9M85PU7NEfxqhoNxLHxJeTgeeagidOZJeHDoXAVskME8L6EBoIuR7z4WMhlM769BLkvdLvl4NIFI+mtP8C5Q==
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/@nuxt/telemetry/-/telemetry-1.3.6.tgz#a27a27b2f56a2ad4ef2c1bef82e12f0bc0dc40ac"
+  integrity sha512-sZpLf/rU3cvN8/alR1HpJIl3mHPA1GOg41GKdOOrtw7Gi/lCEVk4hK+lpXgYInZ2n6i1JyknpKhM9YzX2RU33w==
   dependencies:
     arg "^5.0.0"
     chalk "^4.1.1"
