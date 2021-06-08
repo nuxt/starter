@@ -1,9 +1,10 @@
 <template>
   <div>
-    Hello Nuxt!
+    Hello Nuxt3!
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+}
 </script>
