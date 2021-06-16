@@ -2,6 +2,7 @@
   "infiniteLoopProtection": true,
   "hardReloadOnChange": false,
   "view": "browser",
+  "template": "nuxt",
   "container": {
     "node": "14"
   }
