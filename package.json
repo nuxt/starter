@@ -17,6 +17,7 @@
     "nuxt-vite": "^0.1.1"
   },
   "devDependencies": {
-    "@nuxt/kit": "^0.6.1"
+    "@nuxt/kit": "^0.6.1",
+    "@nuxt/types": "^2.15.3"
   }
 }
