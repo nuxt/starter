@@ -2,3 +2,5 @@ node_modules
 *.log
 .nuxt
 dist
+.output
+nuxt.d.ts
