@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
-    "start": "node .output/server"
+    "start": "node .output/server",
+    "postinstall": "yarn upgrade"
   },
   "devDependencies": {
     "nuxt3": "latest"
