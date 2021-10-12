@@ -11,6 +11,7 @@
   "dependencies": {},
   "devDependencies": {
     "core-js": "^3.9.1",
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge",
     "nuxt-edge": "latest"
   }
 }
