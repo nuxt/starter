@@ -1,4 +1,4 @@
-# nuxt minimal starter
+# nuxt bridge starter
 
 ## Build Setup
 

@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-starter",
+  "name": "nuxt-starter-bridge-codesandbox",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -12,6 +12,6 @@
   "dependencies": {},
   "devDependencies": {
     "core-js": "^3.9.1",
-    "nuxt": "latest"
+    "nuxt-edge": "latest"
   }
 }
