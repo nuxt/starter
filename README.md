@@ -17,4 +17,4 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [documentation](https://nuxtjs.org).
+For detailed explanation on how things work, check out https://v3.nuxtjs.org/getting-started/bridge
