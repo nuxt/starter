@@ -1,13 +1,12 @@
 {
-  "name": "nuxt-starter-bridge-codesandbox",
+  "name": "nuxt-starter-bridge",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
     "start": "node .output/server/index.mjs",
-    "generate": "nuxt generate",
-    "postinstall": "yarn upgrade"
+    "generate": "nuxt generate"
   },
   "dependencies": {},
   "devDependencies": {
