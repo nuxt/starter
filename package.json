@@ -1,12 +1,10 @@
 {
-  "name": "nuxt-starter-bridge",
+  "name": "nuxt-starter-bridge-stackblitz",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt dev",
-    "build": "nuxt build",
-    "start": "node .output/server/index.mjs",
-    "generate": "nuxt generate"
+    "dev": "nuxi dev",
+    "build": "nuxi build"
   },
   "dependencies": {},
   "devDependencies": {
