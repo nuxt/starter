@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt dev",
-    "build": "nuxt build",
+    "dev": "nuxi dev",
+    "build": "nuxi build",
     "start": "node .output/server/index.mjs",
-    "generate": "nuxt generate"
+    "generate": "nuxi generate"
   },
-  "dependencies": {},
   "devDependencies": {
-    "core-js": "^3.9.1",
     "@nuxt/bridge": "npm:@nuxt/bridge-edge",
     "nuxt-edge": "latest"
   }
