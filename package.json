@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxi dev",
     "build": "nuxi build",
-    "start": "node .output/server/index.mjs",
-    "generate": "nuxi generate"
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "@nuxt/bridge": "npm:@nuxt/bridge-edge",
+    "@nuxt/bridge": "latest",
     "nuxt-edge": "latest"
   }
 }
