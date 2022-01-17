@@ -34,6 +34,8 @@ Name | Description | Use
 Each template is maintained in a branch (see [all branches](https://github.com/nuxt/starter/branches)).
 For improvements, please open a Pull Request to each individual branch.
 
+**Note:** Please avoid commiting lock-files such as `yarn.lock` and `package-lock.json` to template branches!
+
 ## License
 
 [MIT](./LICENSE) - Made with 💚
