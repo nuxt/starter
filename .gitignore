@@ -1,0 +1,5 @@
+*.lock*
+*.log*
+.nuxt
+.output
+node_modules
