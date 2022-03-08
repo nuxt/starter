@@ -3,7 +3,7 @@ import { fileURLToPath } from 'url'
 import { defineNuxtModule, addPlugin } from '@nuxt/kit'
 
 export interface ModuleOptions {
-  addPlugin: Boolean
+  addPlugin: boolean
 }
 
 export default defineNuxtModule<ModuleOptions>({
