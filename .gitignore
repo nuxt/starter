@@ -1,5 +1,7 @@
 node_modules
-*.log
+*.log*
 .nuxt
-nuxt.d.ts
+.nitro
+.cache
 .output
+.env
