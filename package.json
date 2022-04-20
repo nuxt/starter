@@ -27,6 +27,6 @@
     "@nuxt/module-builder": "latest",
     "@nuxtjs/eslint-config-typescript": "latest",
     "eslint": "latest",
-    "nuxt3": "latest"
+    "nuxt": "npm:nuxt3@latest"
   }
 }
