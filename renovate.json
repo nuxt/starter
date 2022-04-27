@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "@nuxtjs"
+  ],
+  "baseBranches": [
+    "v3",
+    "v3-codesandbox",
+    "v3-stackblitz",
+    "v3-vercel",
+    "module",
+    "v2",
+    "v2-brdige",
+    "v2-stackblitz",
+    "v2-codesandbox"
+  ]
+}
