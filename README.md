@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Content v2 Minimal Starter
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn more.
 
 ## Setup
 
