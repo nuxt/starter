@@ -24,6 +24,7 @@ Name | Description | Local     | Online |
 [module](https://github.com/nuxt/starter/tree/module) | Nuxt Module with [Module Builder](https://github.com/nuxt/module-builder) | `npx nuxi init -t nuxt/starter#module my-module` | - |
 [v2-bridge](https://github.com/nuxt/starter/tree/v2-bridge) | [Nuxt 2](https://github.com/nuxt/nuxt.js) + [Bridge](https://github.com/nuxt/bridge) | `npx nuxi init -t nuxt/starter#v2-bridge` | [Stackblitz](https://stackblitz.com/github/nuxt/starter/tree/v2-bridge) / [CodeSandbox](https://codesandbox.io/s/github/nuxt/starter/tree/v2-bridge-codesandbox) |
 [v2](https://github.com/nuxt/starter/tree/v2) | [Nuxt 2](https://github.com/nuxt/nuxt.js) | `npx nuxi init -t nuxt/starter#v2` | [Stackblitz](https://stackblitz.com/github/nuxt/starter/tree/v2-stackblitz) / [CodeSandbox](https://codesandbox.io/s/github/nuxt/starter/tree/v2-codesandbox) |
+[Content v2](https://github.com/nuxt/starter/tree/content-v2) | [Nuxt Content v2](https://github.com/nuxt/content) | `npx nuxi init -t nuxt/starter#content-v2` | [Stackblitz](https://stackblitz.com/github/nuxt/starter/tree/content-v2) / [CodeSandbox](https://codesandbox.io/s/github/nuxt/starter/tree/content-v2) |
 
 ## Contribution
 
