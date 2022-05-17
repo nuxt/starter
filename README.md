@@ -39,4 +39,4 @@ Locally preview production build:
 npm run preview
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
