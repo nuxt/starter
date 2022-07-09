@@ -11,7 +11,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "core-js": "^3.23.1",
+    "core-js": "^3.23.4",
     "nuxt": "^2.15.8"
   }
 }
