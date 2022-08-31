@@ -6,6 +6,7 @@
     "build": "nuxi build",
     "dev": "nuxi dev",
     "generate": "nuxi generate",
+    "postinstall": "nuxi prepare",
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
