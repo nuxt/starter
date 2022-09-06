@@ -5,9 +5,6 @@ export default defineNuxtConfig({
   modules: [
     MyModule
   ],
-  imports: {
-    autoImport: false
-  },
   myModule: {
     addPlugin: true
   }
