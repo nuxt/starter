@@ -9,5 +9,13 @@
   },
   "devDependencies": {
     "nuxt": "3.0.0-rc.9"
-  }
+  },
+  "dependencies": {
+    "@pinia/nuxt": "0.4.1",
+    "firebase": "9.9.4",
+    "pinia": "2.0.21"
+  },
+  "keywords": [],
+  "name": "educatiapk",
+  "description": ""
 }
