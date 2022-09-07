@@ -5,7 +5,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "yarn upgrade && nuxt prepare"
+    "postinstall": "yarn upgrade"
   },
   "devDependencies": {
     "nuxt": "3.0.0-rc.9"
