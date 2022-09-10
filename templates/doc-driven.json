@@ -1,6 +1,6 @@
 {
   "name": "doc-driven",
-  "default-dir": "nuxt-app",
+  "defaultDir": "nuxt-app",
   "url": "https://content.nuxtjs.org",
   "tar": "https://codeload.github.com/nuxt/starter/tar.gz/refs/heads/doc-driven"
 }
