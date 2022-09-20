@@ -2,13 +2,12 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "HOST=0.0.0.0 nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "node-fetch-native": "^0.1.6",
     "nuxt": "3.0.0-rc.11"
   }
 }
