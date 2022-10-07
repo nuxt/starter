@@ -1,0 +1,7 @@
+{
+  "name": "content-wind",
+  "defaultDir": "website",
+  "url": "https://content-wind.nuxt.space",
+  "tar": "https://codeload.github.com/Atinux/content-wind/tar.gz/refs/heads/main",
+  "subdir": "template"
+}
