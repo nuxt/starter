@@ -1,0 +1,7 @@
+{
+  "name": "docus",
+  "defaultDir": "docs",
+  "url": "https://docus.dev",
+  "tar": "https://codeload.github.com/nuxt-themes/docus-starter/tar.gz/refs/heads/main",
+  "subdir": ""
+}
