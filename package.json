@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "@nuxt/content": "^2.2.2",
-    "nuxt": "^3.0.0-rc.13"
+    "nuxt": "^3.0.0-rc.14"
   }
 }
