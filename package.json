@@ -12,6 +12,6 @@
   "dependencies": {},
   "devDependencies": {
     "core-js": "^3.26.1",
-    "nuxt": "^2.15.8"
+    "nuxt": "^3.0.0"
   }
 }
