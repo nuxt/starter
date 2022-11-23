@@ -1,7 +1,20 @@
-*.lock*
-*.log*
-.nuxt
-.output
 node_modules
-yarn.lock
+*.log
+.nuxt
+nuxt.d.ts
+.output
+.env
+package-lock.json
+framework
 dist
+.DS_Store
+
+# Yarn
+.yarn/cache
+.yarn/*state*
+
+# Local History
+.history
+
+# VSCode
+.vscode/

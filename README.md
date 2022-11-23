@@ -1,39 +1,73 @@
-# 🪄 Nuxt Starter Templates
+# Nuxt Layer Starter
 
-> Quickly get started with a minimal Nuxt starter template!
+Create Nuxt extendable layer with this GitHub template.
 
-## Usage
+## Setup
 
-You can use `nuxi` CLI to clone latest template to an empty directory:
+Make sure to install the dependencies:
 
-```sh
-$ npx nuxi init [-t,--template=<template>] [<dir>]
+```bash
+pnpm install
 ```
 
-**Example:** Clone `v3` to `my-app` directory:
+## Working on your theme
 
-```sh
-$ npx nuxi init -t v3 nuxt-app
+Your theme is at the root of this repository, it is exactly like a regular Nuxt project, except you can publish it on NPM.
+
+The `.playground` directory should help you on trying your theme during development.
+
+Running `pnpm dev` will prepare and boot `.playground` directory, which imports your theme itself.
+
+## Distributing your theme
+
+Your Nuxt layer is shaped exactly the same as any other Nuxt project, except you can publish it on NPM.
+
+To do so, you only have to check if `files` in `package.json` are valid, then run:
+
+```bash
+npm publish --access public
 ```
 
-## Templates
+Once done, your users will only have to run:
 
-Name | Description | Local     | Online |
------|-------------|-----------|--------|
-[v3](https://github.com/nuxt/starter/tree/v3) | [Nuxt 3](https://github.com/nuxt/framework) | `npx nuxi init nuxt-app` | [Stackblitz](https://stackblitz.com/github/nuxt/starter/tree/v3-stackblitz) / [CodeSandbox](https://codesandbox.io/p/github/nuxt/starter/v3-codesandbox) |
-[module](https://github.com/nuxt/starter/tree/module) | Nuxt Module with [Module Builder](https://github.com/nuxt/module-builder) | `npx nuxi init my-module -t module` | - |
-[content](https://github.com/nuxt/starter/tree/content) | [Nuxt Content](https://github.com/nuxt/content) | `npx nuxi init content-app -t content` | [Stackblitz](https://stackblitz.com/github/nuxt/starter/tree/content) / [CodeSandbox](https://codesandbox.io/p/github/nuxt/starter/content) |
-[doc-driven](https://github.com/nuxt/starter/tree/doc-driven) | [Document Driven mode](https://content.nuxtjs.org/guide/writing/document-driven) | `npx nuxi init doc-driven-app -t doc-driven` | [Stackblitz](https://stackblitz.com/github/nuxt/starter/tree/doc-driven) / [CodeSandbox](https://codesandbox.io/p/github/nuxt/starter/doc-driven) |
-[v2-bridge](https://github.com/nuxt/starter/tree/v2-bridge) | [Nuxt 2](https://github.com/nuxt/nuxt.js) + [Bridge](https://github.com/nuxt/bridge) | `npx nuxi init nuxt-bridge-app -t v2-bridge` | [Stackblitz](https://stackblitz.com/github/nuxt/starter/tree/v2-bridge) / [CodeSandbox](https://codesandbox.io/p/github/nuxt/starter/v2-bridge-codesandbox) |
-[v2](https://github.com/nuxt/starter/tree/v2) | [Nuxt 2](https://github.com/nuxt/nuxt.js) | `npx nuxi init nuxt2-app -t v2` | [Stackblitz](https://stackblitz.com/github/nuxt/starter/tree/v2-stackblitz) / [CodeSandbox](https://codesandbox.io/p/github/nuxt/starter/v2-codesandbox) |
+```bash
+npm install --save your-theme
+```
 
-## Contribution
+Then add the dependency to their `extends` in `nuxt.config`:
 
-Each template is maintained in a branch (see [all branches](https://github.com/nuxt/starter/branches)).
-For improvements, please open a Pull Request to each individual branch.
+```ts
+defineNuxtConfig({
+  extends: 'your-theme'
+})
+```
 
-**Note:** Please avoid commiting lock-files such as `yarn.lock` and `package-lock.json` to template branches!
+## Development Server
 
-## License
+Start the development server on http://localhost:3000
 
-[MIT](./LICENSE) - Made with 💚
+```bash
+pnpm dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+pnpm build
+```
+
+Or statically generate it with:
+
+```bash
+pnpm generate
+```
+
+Locally preview production build:
+
+```bash
+pnpm preview
+```
+
+Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
