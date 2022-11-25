@@ -17,6 +17,14 @@ npm install
 pnpm install --shamefully-hoist
 ```
 
+## Directory Structure
+
+```bash
+scripts/nuxt-dirs.sh
+```
+
+more info: [directory-structure/assets](https://nuxt.com/docs/guide/directory-structure/assets)
+
 ## Development Server
 
 Start the development server on http://localhost:3000
