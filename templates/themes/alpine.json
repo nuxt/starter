@@ -1,0 +1,7 @@
+{
+  "name": "alpine",
+  "defaultDir": "blog",
+  "url": "https://alpine.nuxt.space",
+  "tar": "https://codeload.github.com/nuxt-themes/alpine-starter/tar.gz/refs/heads/main",
+  "subdir": ""
+}
