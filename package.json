@@ -18,6 +18,8 @@
     "prepack": "nuxt-module-build",
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
+    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
+    "release": "npm run test && changelogen --release && git push --follow-tags && npm publish",
     "lint": "eslint .",
   },
   "dependencies": {
@@ -27,8 +29,8 @@
     "@nuxt/eslint-config": "^0.1.1",
     "@nuxt/module-builder": "^0.2.1",
     "@nuxt/schema": "^3.1.0",
-    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "changelogen": "^0.4.1",
     "eslint": "^8.32.0",
-    "nuxt": "^3.0.0"
+    "nuxt": "^3.1.0",
   }
 }
