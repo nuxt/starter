@@ -30,6 +30,9 @@ Find and replace all on all files (CMD+SHIFT+F):
 1. Add `my-module` dependency to your project
 
 ```bash
+# Using pnpm
+pnpm add -D my-module
+
 # Using yarn
 yarn add --dev my-module
 
