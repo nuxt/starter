@@ -40,14 +40,14 @@ yarn add --dev my-module
 npm install --save-dev my-module
 ```
 
-2. Add `my-module` to the `modules` section of `nuxt.config.js`
+2. Add `my-module` to the `modules` section of `nuxt.config.ts`
 
 ```js
-{
+export default defineNuxtConfig({
   modules: [
     'my-module'
   ]
-}
+})
 ```
 
 That's it! You can now use My Module classes in your Nuxt app ✨
