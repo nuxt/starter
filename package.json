@@ -20,11 +20,10 @@
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
-    "release": "npm run test && changelogen --release && git push --follow-tags && npm publish",
+    "release": "npm run lint && npm run unit && npm run prepack && changelogen --release && git push --follow-tags && npm publish",
     "lint": "eslint .",
-    "unit": "vitest run",
-    "unit:watch": "vitest watch",
-    "test": "npm run lint && npm run unit && npm run prepack"
+    "test": "vitest run",
+    "test:watch": "vitest watch"
   },
   "dependencies": {
     "@nuxt/kit": "^3.1.0"

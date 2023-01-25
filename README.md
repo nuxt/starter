@@ -68,11 +68,8 @@ npm run dev:build
 npm run lint
 
 # Run Vitest
-npm run unit
-npm run unit:watch
-
-# Run all tests (ESLint, Vitest, build)
 npm run test
+npm run test:watch
 
 # Release new version
 npm run release

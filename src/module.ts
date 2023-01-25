@@ -11,11 +11,11 @@ export default defineNuxtModule<ModuleOptions>({
   // Default configuration options of the Nuxt module
   defaults: {},
   setup (options, nuxt) {
-    const { resolve } = createResolver(import.meta.url)
+    const resolver = createResolver(import.meta.url)
 
-    const runtimeDir = resolve('./runtime')
+    const runtimeDir = resolver.resolve('./runtime')
     nuxt.options.build.transpile.push(runtimeDir)
 
-    addPlugin(resolve(runtimeDir, 'plugin'))
+    addPlugin(resolver.resolve(runtimeDir, 'plugin'))
   }
 })
