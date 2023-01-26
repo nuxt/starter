@@ -13,9 +13,6 @@ export default defineNuxtModule<ModuleOptions>({
   setup (options, nuxt) {
     const resolver = createResolver(import.meta.url)
 
-    // Add runtime directory to be transpiled by Nuxt
-    // nuxt.options.build.transpile.push(resolve('./runtime'))
-
     // Do no add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
     addPlugin(resolver.resolve('./runtime/plugin'))
   }
