@@ -50,7 +50,7 @@ export default defineNuxtConfig({
 })
 ```
 
-That's it! You can now use My Module classes in your Nuxt app ✨
+That's it! You can now use My Module in your Nuxt app ✨
 
 ## Development
 
