@@ -2,6 +2,10 @@
 
 > Quickly get started with a minimal Nuxt starter template!
 
+## Quick start
+
+Head over to [nuxt.new](https://nuxt.new) to get started quickly.
+
 ## Usage
 
 You can use `nuxi` CLI to clone latest template to an empty directory:
