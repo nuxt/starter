@@ -17,23 +17,28 @@
     "dist"
   ],
   "scripts": {
-    "prepack": "nuxt-module-build",
-    "dev": "nuxi dev playground",
-    "dev:build": "nuxi build playground",
-    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
+    "prepack": "nuxt-module-build && npm run client:build",
+    "client:build": "nuxi generate client",
+    "dev": "nuxi dev client",
+    "dev:prepare": "nuxt-module-build --stub && nuxi prepare client",
+    "play": "npm run prepack && nuxi dev playground",
     "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.2.2"
+    "@nuxt/kit": "^3.2.2",
+    "sirv": "^2.0.2"
   },
   "devDependencies": {
+    "@iconify-json/carbon": "^1.1.15",
+    "@nuxt/devtools": "^0.1.4",
     "@nuxt/eslint-config": "^0.1.1",
     "@nuxt/module-builder": "^0.2.1",
     "@nuxt/schema": "^3.2.2",
     "@nuxt/test-utils": "^3.2.2",
+    "@nuxt/ui": "^0.4.1",
     "changelogen": "^0.4.1",
     "eslint": "^8.34.0",
     "nuxt": "^3.2.2",
