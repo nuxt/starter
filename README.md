@@ -1,6 +1,6 @@
 # 🪄 Nuxt Starter Templates
 
-> Quickly get started with a minimal Nuxt starter template!
+Quickly get started with a minimal Nuxt starter template!
 
 ## Quick start
 
