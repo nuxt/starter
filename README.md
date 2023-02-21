@@ -13,7 +13,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 
-> My new Nuxt module
+My new Nuxt module integrated with the [Nuxt Devtools](https://github.com/nuxt/devtools).
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 <!-- - [📖 &nbsp;Documentation](https://example.com) -->
