@@ -8,7 +8,7 @@ export function setupDevToolsUI(nuxt: Nuxt, resolver: Resolver) {
   const clientPath = resolver.resolve('./client')
 
   nuxt.hook('vite:serverCreated', async (server) => {
-    // serve UI in production
+    // Serve production-built client (used when package is published)
     if (existsSync(clientPath)) {
       const sirv = await import('sirv').then((r) => r.default || r)
       server.middlewares.use(
