@@ -10,13 +10,13 @@ Head over to [nuxt.new](https://nuxt.new) to get started quickly.
 
 You can use `nuxi` CLI to clone latest template to an empty directory:
 
-```sh
+```sh-session
 $ npx nuxi init [-t,--template=<template>] [<dir>]
 ```
 
 **Example:** Clone `v3` to `my-app` directory:
 
-```sh
+```sh-session
 $ npx nuxi init -t v3 nuxt-app
 ```
 
