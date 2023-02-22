@@ -61,11 +61,11 @@ npm install
 # Generate type stubs
 npm run dev:prepare
 
-# Develop with the devtools client
+# Develop with playground, with devtools client ui
 npm run dev
 
-# Build the module and preview it in the playground
-npm run play
+# Develop with playground, with bundled client ui
+npm run play:prod
 
 # Run ESLint
 npm run lint

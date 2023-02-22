@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   modules: [
-    '../dist/module',
+    '../src/module',
     '@nuxt/devtools'
   ],
   myModule: {}

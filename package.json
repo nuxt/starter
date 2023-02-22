@@ -19,9 +19,11 @@
   "scripts": {
     "prepack": "nuxt-module-build && npm run client:build",
     "client:build": "nuxi generate client",
-    "dev": "nuxi dev client",
+    "client:dev": "nuxi dev client --port 3300",
+    "dev": "concurrently \"npm:client:dev\" \"npm:play:dev\"",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare client",
-    "play": "npm run prepack && nuxi dev playground",
+    "play:dev": "nuxi dev playground",
+    "play:prod": "npm run prepack && nuxi dev playground",
     "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
     "lint": "eslint .",
     "test": "vitest run",
@@ -40,6 +42,7 @@
     "@nuxt/test-utils": "^3.2.2",
     "@nuxt/ui": "^0.4.1",
     "changelogen": "^0.4.1",
+    "concurrently": "^7.6.0",
     "eslint": "^8.34.0",
     "nuxt": "^3.2.2",
     "vitest": "^0.28.5"
