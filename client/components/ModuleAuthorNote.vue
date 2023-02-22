@@ -8,7 +8,7 @@
     class="py-4"
   >
     <p class="font-bold">
-      Note for module author:
+      Note for module authors:
     </p>
     Nuxt DevTools is in early preview and the API is subject to change.
     Which means the setup in this template is only presenting the current state of the API.
@@ -17,6 +17,12 @@
       target="_blank"
     >
       nuxt/devtools
-    </NLink> repository.
+    </NLink> repository.<br>
+    The UI components are coming from <NLink
+      href="https://github.com/nuxt/ui/tree/main/packages/ui"
+      target="_blank"
+    >
+      nuxt/ui
+    </NLink>.
   </NTip>
 </template>
