@@ -1,0 +1,6 @@
+{
+  "name": "module-devtools",
+  "defaultDir": "nuxt-module",
+  "url": "https://nuxt.com",
+  "tar": "https://codeload.github.com/nuxt/starter/tar.gz/refs/heads/module-devtools"
+}
