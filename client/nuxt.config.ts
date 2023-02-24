@@ -3,7 +3,7 @@ import { resolve } from "pathe";
 export default defineNuxtConfig({
   ssr: false,
   modules: [
-    '@nuxt/ui'
+    '@nuxt/devtools-ui-kit'
   ],
   nitro: {
     output: {
