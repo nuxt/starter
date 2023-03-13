@@ -4,14 +4,15 @@
   "version": "0.0.1",
   "main": "./nuxt.config.ts",
   "scripts": {
-    "dev": "nuxi prepare & nuxi dev .playground",
-    "build": "nuxi build .playground",
-    "generate": "nuxi generate .playground",
-    "preview": "nuxi preview .playground",
-    "lint": "eslint ."
+    "dev": "nuxi dev .playground",
+    "build": "nuxt build .playground",
+    "generate": "nuxt generate .playground",
+    "preview": "nuxt preview .playground",
+    "lint": "eslint .",
+    "postinstall": "nuxt prepare .playground"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@nuxt/eslint-config": "^0.1.1",
     "eslint": "^8.28.0",
     "nuxt": "^3.0.0",
     "typescript": "^4.9.3"
