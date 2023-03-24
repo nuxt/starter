@@ -1,4 +1,5 @@
 {
+  "name": "nuxt-starter",
   "private": true,
   "scripts": {
     "build": "nuxt build",
