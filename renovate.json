@@ -1,6 +1,7 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "@nuxtjs"
+    "github>nuxt/renovate-config-nuxt"
   ],
   "baseBranches": [
     "v3",
@@ -14,5 +15,13 @@
     "v2-bridge",
     "v2-stackblitz",
     "v2-codesandbox"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "@types/node"
+      ],
+      "rangeStrategy": "auto"
+    }
   ]
 }
