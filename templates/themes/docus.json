@@ -3,5 +3,5 @@
   "defaultDir": "docs",
   "url": "https://docus.dev",
   "tar": "https://codeload.github.com/nuxt-themes/docus-docs-starter/tar.gz/refs/heads/main",
-  "subdir": ""
+  "subdir": ".starters/default"
 }
