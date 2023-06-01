@@ -1,6 +1,6 @@
 {
-  "name": "new-theme-unocss",
+  "name": "new-theme-uno",
   "defaultDir": "my-theme",
-  "url": "https://github.com/nuxt-themes/starter/tree/unocss",
-  "tar": "https://codeload.github.com/nuxt-themes/starter/tar.gz/refs/heads/unocss"
+  "url": "https://github.com/nuxt-themes/starter/tree/uno",
+  "tar": "https://codeload.github.com/nuxt-themes/starter/tar.gz/refs/heads/uno"
 }
