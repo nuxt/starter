@@ -1,7 +1,17 @@
-*.lock*
-*.log*
-.nuxt
+# Nuxt dev/build outputs
 .output
+.nuxt
+
+# Node dependencies
 node_modules
-yarn.lock
-dist
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+
+# Local env files
+.env.*
+!.env.example
