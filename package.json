@@ -9,7 +9,6 @@
   },
   "devDependencies": {
     "@types/node": "^18",
-    "nuxt": "^3.6.0",
-    "typescript": "latest"
+    "nuxt": "^3.6.1"
   }
 }
