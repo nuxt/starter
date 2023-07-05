@@ -28,7 +28,7 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.2.2",
+    "@nuxt/kit": "^3.6.2",
     "sirv": "^2.0.2"
   },
   "devDependencies": {
@@ -36,12 +36,12 @@
     "@nuxt/devtools": "^0.1.4",
     "@nuxt/eslint-config": "^0.1.1",
     "@nuxt/module-builder": "^0.2.1",
-    "@nuxt/schema": "^3.2.2",
-    "@nuxt/test-utils": "^3.2.2",
+    "@nuxt/schema": "^3.6.2",
+    "@nuxt/test-utils": "^3.6.2",
     "@nuxt/ui": "^0.4.1",
     "changelogen": "^0.4.1",
     "eslint": "^8.34.0",
-    "nuxt": "^3.2.2",
+    "nuxt": "^3.6.2",
     "vitest": "^0.28.5"
   }
 }
