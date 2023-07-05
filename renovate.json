@@ -15,13 +15,5 @@
     "v2-bridge",
     "v2-stackblitz",
     "v2-codesandbox"
-  ],
-  "packageRules": [
-    {
-      "matchPackageNames": [
-        "@types/node"
-      ],
-      "rangeStrategy": "auto"
-    }
   ]
 }
