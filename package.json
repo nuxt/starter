@@ -7,7 +7,7 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@types/node": "^18.16.19",
+    "@types/node": "^18.17.0",
     "@nuxt/content": "^2.7.1",
     "nuxt": "^3.6.5"
   }
