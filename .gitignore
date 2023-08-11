@@ -4,6 +4,7 @@ node_modules
 .nitro
 .cache
 .output
+.data
 .vercel
 .env
 dist
