@@ -3,4 +3,5 @@ node_modules
 .nuxt
 dist
 .output
+.data
 nuxt.d.ts
