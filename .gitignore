@@ -2,6 +2,7 @@ node_modules
 *.log
 .nuxt
 .output
+.data
 yarn.lock
 package-lock.json
 sw.js
