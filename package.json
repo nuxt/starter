@@ -10,6 +10,6 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "nuxt": "^3.7.2"
+    "nuxt": "^3.7.3"
   }
 }
