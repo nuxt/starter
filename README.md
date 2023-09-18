@@ -16,7 +16,7 @@ pnpm install
 # yarn
 yarn install
 
-#bun
+# bun
 bun install
 ```
 
@@ -35,7 +35,7 @@ pnpm run dev
 yarn dev
 
 # bun
-bun dev
+bun run dev
 ```
 
 ## Production
@@ -69,7 +69,7 @@ pnpm run preview
 yarn preview
 
 # bun
-bun preview
+bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
