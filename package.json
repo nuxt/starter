@@ -31,14 +31,14 @@
     "@nuxt/kit": "^3.7.4"
   },
   "devDependencies": {
-    "@types/node": "^18.18.1",
+    "@types/node": "^18.18.6",
     "@nuxt/devtools": "latest",
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxt/module-builder": "^0.5.2",
     "@nuxt/schema": "^3.7.4",
     "@nuxt/test-utils": "^3.7.4",
     "changelogen": "^0.5.5",
-    "eslint": "^8.50.0",
+    "eslint": "^8.51.0",
     "nuxt": "^3.7.4",
     "vitest": "^0.33.0"
   }
