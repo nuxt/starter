@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@nuxt/bridge": "rc",
-    "nuxi": "3.8.4",
+    "nuxi": "3.9.1",
     "nuxt": "2.17.1"
   }
 }
