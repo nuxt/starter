@@ -8,7 +8,7 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@nuxt/content": "^2.8.5",
+    "@nuxt/content": "^2.9.0",
     "nuxt": "^3.8.0"
   }
 }
