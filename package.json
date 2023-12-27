@@ -22,6 +22,7 @@
     "client:dev": "nuxi dev client --port 3300",
     "dev": "npm run play:dev",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare client",
+    "prepare": "nuxi prepare client",
     "play:dev": "nuxi dev playground",
     "play:prod": "npm run prepack && nuxi dev playground",
     "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
@@ -30,21 +31,21 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/devtools-kit": "^0.5.1",
-    "@nuxt/kit": "^3.5.1",
-    "sirv": "^2.0.3"
+    "@nuxt/devtools-kit": "^1.0.6",
+    "@nuxt/kit": "^3.9.0",
+    "sirv": "^2.0.4"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.1.16",
-    "@nuxt/devtools": "^0.5.1",
-    "@nuxt/devtools-ui-kit": "^0.5.1",
-    "@nuxt/eslint-config": "^0.1.1",
-    "@nuxt/module-builder": "^0.3.1",
-    "@nuxt/schema": "^3.5.1",
-    "@nuxt/test-utils": "^3.5.1",
-    "changelogen": "^0.5.3",
-    "eslint": "^8.41.0",
-    "nuxt": "^3.5.1",
-    "vitest": "^0.31.1"
+    "@iconify-json/carbon": "^1.1.27",
+    "@nuxt/devtools": "^1.0.6",
+    "@nuxt/devtools-ui-kit": "^1.0.6",
+    "@nuxt/eslint-config": "^0.2.0",
+    "@nuxt/module-builder": "^0.5.5",
+    "@nuxt/schema": "^3.9.0",
+    "@nuxt/test-utils": "^3.9.0",
+    "changelogen": "^0.5.5",
+    "eslint": "^8.56.0",
+    "nuxt": "^3.9.0",
+    "vitest": "^1.1.0"
   }
 }

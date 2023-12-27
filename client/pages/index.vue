@@ -30,7 +30,7 @@ const client = useDevtoolsClient()
         <NButton
           n="green"
           class="mt-4"
-          @click="client!.host.closeDevTools()"
+          @click="client!.host.devtools.close()"
         >
           Close DevTools
         </NButton>

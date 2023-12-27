@@ -1,6 +1,6 @@
-import { Nuxt } from 'nuxt/schema'
+import type { Nuxt } from 'nuxt/schema'
 import { existsSync } from 'fs'
-import { Resolver } from '@nuxt/kit'
+import type { Resolver } from '@nuxt/kit'
 
 const DEVTOOLS_UI_ROUTE = '/__my-module'
 const DEVTOOLS_UI_LOCAL_PORT = 3300
@@ -33,7 +33,6 @@ export function setupDevToolsUI(nuxt: Nuxt, resolver: Resolver) {
     })
   }
 
-  // @ts-expect-error
   nuxt.hook('devtools:customTabs', (tabs) => {
     tabs.push({
       // unique identifier

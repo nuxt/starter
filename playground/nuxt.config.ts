@@ -3,8 +3,10 @@ import { startSubprocess } from '@nuxt/devtools-kit'
 import { resolve } from 'path'
 
 export default defineNuxtConfig({
+  devtools: {
+    enabled: true,
+  },
   modules: [
-    '@nuxt/devtools',
     /**
      * My module
      */
