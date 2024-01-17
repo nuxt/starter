@@ -3,6 +3,15 @@
   "extends": [
     "github>nuxt/renovate-config-nuxt"
   ],
+  "minor": {
+    "automerge": true
+  },
+  "patch": {
+    "automerge": true
+  },
+  "pin": {
+    "automerge": true
+  },
   "baseBranches": [
     "v3",
     "v3-codesandbox",
@@ -15,8 +24,5 @@
     "v2-bridge",
     "v2-stackblitz",
     "v2-codesandbox"
-  ],
-  "ignoreDeps": [
-    "vitest"
   ]
 }
