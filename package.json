@@ -8,7 +8,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "devDependencies": {
+  "dependencies": {
     "nuxt": "npm:nuxt-nightly@latest",
     "vue": "latest",
     "vue-router": "latest"
