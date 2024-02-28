@@ -1,0 +1,6 @@
+{
+  "name": "ui-pro",
+  "defaultDir": "nuxt-ui-pro-app",
+  "url": "https://ui.nuxt.com/pro",
+  "tar": "https://codeload.github.com/nuxt-ui-pro/starter/tar.gz/refs/heads/main"
+}
