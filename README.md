@@ -29,27 +29,10 @@ My new Nuxt module for doing amazing things.
 
 ## Quick Setup
 
-1. Add `my-module` dependency to your project
+Install the module to your Nuxt application with one command:
 
 ```bash
-# Using pnpm
-pnpm add -D my-module
-
-# Using yarn
-yarn add --dev my-module
-
-# Using npm
-npm install --save-dev my-module
-```
-
-2. Add `my-module` to the `modules` section of `nuxt.config.ts`
-
-```js
-export default defineNuxtConfig({
-  modules: [
-    'my-module'
-  ]
-})
+npx nuxi module add my-module
 ```
 
 That's it! You can now use My Module in your Nuxt app ✨
