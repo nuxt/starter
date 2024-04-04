@@ -31,7 +31,7 @@
     "@nuxt/kit": "^3.11.1"
   },
   "devDependencies": {
-    "@types/node": "^20.11.29",
+    "@types/node": "^20.12.4",
     "@nuxt/devtools": "latest",
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxt/module-builder": "^0.5.5",
