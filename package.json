@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@nuxt/ui": "^2.13.0",
-    "nuxt": "^3.10.1"
+    "@nuxt/ui": "^2.17.0",
+    "nuxt": "^3.12.1"
   }
 }
