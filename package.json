@@ -12,9 +12,10 @@
     "postinstall": "nuxt prepare .playground"
   },
   "devDependencies": {
-    "@nuxt/eslint-config": "^0.1.1",
-    "eslint": "^8.28.0",
-    "nuxt": "^3.6.2",
-    "typescript": "^4.9.3"
+    "@nuxt/eslint": "latest",
+    "eslint": "^9.5.0",
+    "nuxt": "^3.12.2",
+    "typescript": "^5.5.2",
+    "vue": "latest"
   }
 }
