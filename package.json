@@ -12,6 +12,6 @@
   "devDependencies": {
     "@nuxt/bridge": "latest",
     "nuxi": "3.12.0",
-    "nuxt": "2.18.0"
+    "nuxt": "2.18.1"
   }
 }
