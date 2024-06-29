@@ -10,15 +10,15 @@ Make sure to install the dependencies:
 pnpm install
 ```
 
-## Working on your theme
+## Working on your layer
 
-Your theme is at the root of this repository, it is exactly like a regular Nuxt project, except you can publish it on NPM.
+Your layer is at the root of this repository, it is exactly like a regular Nuxt project, except you can publish it on NPM.
 
-The `.playground` directory should help you on trying your theme during development.
+The `.playground` directory should help you on trying your layer during development.
 
-Running `pnpm dev` will prepare and boot `.playground` directory, which imports your theme itself.
+Running `pnpm dev` will prepare and boot `.playground` directory, which imports your layer itself.
 
-## Distributing your theme
+## Distributing your layer
 
 Your Nuxt layer is shaped exactly the same as any other Nuxt project, except you can publish it on NPM.
 
@@ -31,14 +31,14 @@ npm publish --access public
 Once done, your users will only have to run:
 
 ```bash
-npm install --save your-theme
+npm install --save your-layer
 ```
 
 Then add the dependency to their `extends` in `nuxt.config`:
 
 ```ts
 defineNuxtConfig({
-  extends: 'your-theme'
+  extends: 'your-layer'
 })
 ```
 
