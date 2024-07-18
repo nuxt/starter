@@ -42,7 +42,7 @@
     "eslint": "^9.6.0",
     "nuxt": "^3.12.3",
     "typescript": "latest",
-    "vitest": "^1.6.0",
+    "vitest": "^2.0.3",
     "vue-tsc": "^2.0.24"
   }
 }
