@@ -11,6 +11,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "nuxt": "^2.18.1"
+    "nuxt": "^3.12.4"
   }
 }
