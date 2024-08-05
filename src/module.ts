@@ -1,5 +1,13 @@
 import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
 
+// PublicRuntimeConfig Typescript supplement
+declare module '@nuxt/schema' {
+  interface PublicRuntimeConfig {
+    // this key is used meta.configKey
+    myModule: ModuleOptions
+  }
+}
+
 // Module options TypeScript interface definition
 export interface ModuleOptions {}
 
