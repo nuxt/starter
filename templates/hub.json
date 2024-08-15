@@ -2,5 +2,5 @@
   "name": "hub",
   "defaultDir": "nuxthub-app",
   "url": "https://hub.nuxt.com",
-  "tar": "https://codeload.github.com/nuxt-hub/starter/tar.gz/refs/heads/main"
+  "tar": "https://codeload.github.com/nuxt-hub/hello-edge/tar.gz/refs/heads/main"
 }
