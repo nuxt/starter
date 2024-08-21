@@ -1,11 +1,12 @@
+import { resolve } from 'node:path'
 import { defineNuxtModule } from '@nuxt/kit'
 import { startSubprocess } from '@nuxt/devtools-kit'
-import { resolve } from 'path'
 
 export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
+
   modules: [
     /**
      * My module
@@ -22,7 +23,7 @@ export default defineNuxtConfig({
           return
         }
 
-        const process = startSubprocess(
+        const _process = startSubprocess(
           {
             command: 'npx',
             args: ['nuxi', 'dev', '--port', '3300'],
@@ -31,10 +32,13 @@ export default defineNuxtConfig({
           {
             id: 'my-module:client',
             name: 'My Module Client Dev',
-          }
+          },
         )
       },
     }),
   ],
+
   myModule: {},
+
+  compatibilityDate: '2024-08-21',
 })

@@ -5,8 +5,8 @@ import { setupDevToolsUI } from './devtools'
 export interface ModuleOptions {
   /**
    * Enable Nuxt Devtools integration
-   * 
-   * @default true 
+   *
+   * @default true
    */
   devtools: boolean
 }
@@ -14,19 +14,19 @@ export interface ModuleOptions {
 export default defineNuxtModule<ModuleOptions>({
   meta: {
     name: 'my-module',
-    configKey: 'myModule'
+    configKey: 'myModule',
   },
   // Default configuration options of the Nuxt module
   defaults: {
-    devtools: true
+    devtools: true,
   },
-  setup (options, nuxt) {
+  setup(options, nuxt) {
     const resolver = createResolver(import.meta.url)
-    
+
     // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
     addPlugin(resolver.resolve('./runtime/plugin'))
 
     if (options.devtools)
       setupDevToolsUI(nuxt, resolver)
-  }
+  },
 })
