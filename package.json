@@ -37,10 +37,10 @@
     "@nuxt/module-builder": "^0.8.3",
     "@nuxt/schema": "^3.13.0",
     "@nuxt/test-utils": "^3.14.1",
-    "@types/node": "^20.16.1",
+    "@types/node": "^22.5.0",
     "changelogen": "^0.5.5",
     "eslint": "^9.9.0",
-    "nuxt": "^3.12.4",
+    "nuxt": "^3.13.0",
     "typescript": "latest",
     "vitest": "^2.0.5",
     "vue-tsc": "^2.0.29"
