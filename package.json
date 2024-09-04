@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@nuxt/devtools-kit": "^1.4.1",
-    "@nuxt/kit": "^3.13.0",
+    "@nuxt/kit": "^3.13.1",
     "sirv": "^2.0.4"
   },
   "devDependencies": {
