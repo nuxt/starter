@@ -19,3 +19,6 @@ dist
 
 # VSCode
 .vscode/
+
+# JetBrains/WebStorm
+.idea/
