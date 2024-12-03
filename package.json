@@ -32,7 +32,7 @@
     "@nuxt/kit": "^3.14.1592"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^1.6.2",
+    "@nuxt/devtools": "^1.6.3",
     "@nuxt/eslint-config": "^0.7.2",
     "@nuxt/module-builder": "^0.8.4",
     "@nuxt/schema": "^3.14.1592",
