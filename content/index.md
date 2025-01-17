@@ -1,22 +1,24 @@
-# Welcome to Nuxt Content starter
+# Welcome to Nuxt Content Starter
 
-## Manage your contents
+This is the main page displaying Markdown located at [content/index.md](https://github.com/larbish/starter/blob/content/content/index.md).
+
+Move to [about](/about) page.
+
+## Manage your Contents
 
 Create new pages or modify the existing ones in `content/` directory.
 
-## Query & Render pages
+## Query & Render Pages
 
-You can find an example of querying contents and rendering them in `app/pages/[...slug].vue`
+You can find an example of querying contents and rendering them in a [catch-all page](https://github.com/larbish/starter/blob/content/app/pages/%5B...slug%5D.vue)
 
-## Fancy to use a Vue component?
+## Integrate Vue Component
+
+::alert{color="green"}
+The current [alert](https://github.com/larbish/starter/blob/content/app/components/Alert.vue) and the [counter](https://github.com/larbish/starter/blob/content/app/components/Counter.vue) below are `Vue` components integrated into the Markdown.
+::
 
 ::counter
 ::
 
-:div{style="margin: 2rem 0"}
-
-::div{style="background: orange; font-size: 1.5rem; padding: 10px 20px;"}
-Checkout [official docs][docs] to read more about Nuxt Content
-::
-
-[docs]: https://content.nuxt.com
+Checkout out the [documentation](https://content.nuxt.com/docs/getting-started) to learn more.
