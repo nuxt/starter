@@ -39,7 +39,7 @@
     "@iconify-json/carbon": "^1.2.6",
     "@nuxt/devtools": "^1.7.0",
     "@nuxt/devtools-ui-kit": "^1.7.0",
-    "@nuxt/eslint-config": "^1.0.0",
+    "@nuxt/eslint-config": "^1.0.1",
     "@nuxt/module-builder": "^0.8.4",
     "@nuxt/schema": "^3.15.4",
     "@nuxt/test-utils": "^3.15.4",
