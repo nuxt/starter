@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@iconify-json/carbon": "^1.2.6",
-    "@nuxt/devtools": "^1.7.0",
+    "@nuxt/devtools": "^2.0.0",
     "@nuxt/devtools-ui-kit": "^2.0.0",
     "@nuxt/eslint-config": "^1.0.1",
     "@nuxt/module-builder": "^0.8.4",
