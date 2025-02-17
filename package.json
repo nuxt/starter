@@ -33,7 +33,7 @@
   "dependencies": {
     "@nuxt/devtools-kit": "^2.1.0",
     "@nuxt/kit": "^3.15.4",
-    "sirv": "^3.0.0"
+    "sirv": "^3.0.1"
   },
   "devDependencies": {
     "@iconify-json/carbon": "^1.2.7",
