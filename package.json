@@ -23,13 +23,13 @@
     "typescript": "^5.7.3"
   },
   "overrides": {
-    "tailwindcss": "4.0.7",
-    "@tailwindcss/postcss": "4.0.7",
-    "@tailwindcss/vite": "4.0.7"
+    "tailwindcss": "4.0.9",
+    "@tailwindcss/postcss": "4.0.9",
+    "@tailwindcss/vite": "4.0.9"
   },
   "resolutions": {
-    "tailwindcss": "4.0.7",
-    "@tailwindcss/postcss": "4.0.7",
-    "@tailwindcss/vite": "4.0.7"
+    "tailwindcss": "4.0.9",
+    "@tailwindcss/postcss": "4.0.9",
+    "@tailwindcss/vite": "4.0.9"
   }
 }
