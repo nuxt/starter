@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@nuxt/devtools-kit": "^2.2.1",
-    "@nuxt/kit": "^3.15.4",
+    "@nuxt/kit": "^3.16.0",
     "sirv": "^3.0.1"
   },
   "devDependencies": {
@@ -41,11 +41,11 @@
     "@nuxt/devtools-ui-kit": "^2.2.1",
     "@nuxt/eslint-config": "^1.1.0",
     "@nuxt/module-builder": "^0.8.4",
-    "@nuxt/schema": "^3.15.4",
+    "@nuxt/schema": "^3.16.0",
     "@nuxt/test-utils": "^3.17.1",
     "changelogen": "^0.6.1",
     "eslint": "^9.21.0",
-    "nuxt": "^3.15.4",
+    "nuxt": "^3.16.0",
     "vitest": "^3.0.8"
   }
 }
