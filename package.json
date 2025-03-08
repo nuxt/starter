@@ -44,7 +44,7 @@
     "@nuxt/schema": "^3.16.0",
     "@nuxt/test-utils": "^3.17.1",
     "changelogen": "^0.6.1",
-    "eslint": "^9.21.0",
+    "eslint": "^9.22.0",
     "nuxt": "^3.16.0",
     "vitest": "^3.0.8"
   }
