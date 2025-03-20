@@ -31,14 +31,14 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/devtools-kit": "^2.3.0",
+    "@nuxt/devtools-kit": "^2.3.1",
     "@nuxt/kit": "^3.16.1",
     "sirv": "^3.0.1"
   },
   "devDependencies": {
     "@iconify-json/carbon": "^1.2.8",
-    "@nuxt/devtools": "^2.3.0",
-    "@nuxt/devtools-ui-kit": "^2.3.0",
+    "@nuxt/devtools": "^2.3.1",
+    "@nuxt/devtools-ui-kit": "^2.3.1",
     "@nuxt/eslint-config": "^1.2.0",
     "@nuxt/module-builder": "^0.8.4",
     "@nuxt/schema": "^3.16.1",
