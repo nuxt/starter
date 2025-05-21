@@ -14,7 +14,7 @@
   "devDependencies": {
     "@nuxt/eslint": "latest",
     "eslint": "^9.27.0",
-    "nuxt": "^3.17.3",
+    "nuxt": "^3.17.4",
     "typescript": "^5.8.3",
     "vue": "latest"
   }
