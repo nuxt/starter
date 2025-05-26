@@ -13,12 +13,12 @@
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.44",
-    "@iconify-json/simple-icons": "^1.2.34",
+    "@iconify-json/simple-icons": "^1.2.35",
     "@nuxt/ui": "^3.1.2",
     "nuxt": "^3.17.4"
   },
   "devDependencies": {
-    "@nuxt/eslint": "^1.4.0",
+    "@nuxt/eslint": "^1.4.1",
     "eslint": "^9.27.0",
     "typescript": "^5.8.3"
   }
