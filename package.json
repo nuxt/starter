@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@nuxt/devtools-kit": "^2.4.1",
-    "@nuxt/kit": "^3.17.4",
+    "@nuxt/kit": "^3.17.5",
     "sirv": "^3.0.1"
   },
   "devDependencies": {
@@ -46,11 +46,11 @@
     "@nuxt/devtools-ui-kit": "^2.4.1",
     "@nuxt/eslint-config": "^1.4.1",
     "@nuxt/module-builder": "^1.0.1",
-    "@nuxt/schema": "^3.17.4",
+    "@nuxt/schema": "^3.17.5",
     "@nuxt/test-utils": "^3.19.1",
     "changelogen": "^0.6.1",
     "eslint": "^9.28.0",
-    "nuxt": "^3.17.4",
+    "nuxt": "^3.17.5",
     "vitest": "^3.2.0"
   }
 }
