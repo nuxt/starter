@@ -11,6 +11,5 @@
   },
   "dependencies": {
     "nuxt": "^3.17.5"
-  },
-  "packageManager": "pnpm@9.15.9"
+  }
 }
