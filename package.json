@@ -12,8 +12,5 @@
   "dependencies": {
     "nuxt": "^3.17.5"
   },
-  "stackblitz": {
-    "installDependencies": false,
-    "startCommand": "pnpm i && pnpm dev"
-  }
+  "packageManager": "pnpm@9.15.9"
 }
