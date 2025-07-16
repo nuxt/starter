@@ -12,14 +12,14 @@
     "lint:fix": "eslint --fix ."
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.56",
-    "@iconify-json/simple-icons": "^1.2.42",
+    "@iconify-json/lucide": "^1.2.57",
+    "@iconify-json/simple-icons": "^1.2.43",
     "@nuxt/ui": "^3.2.0",
-    "nuxt": "^3.17.7"
+    "nuxt": "^4.0.0"
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.5.2",
-    "eslint": "^9.30.1",
+    "eslint": "^9.31.0",
     "typescript": "^5.8.3"
   }
 }
