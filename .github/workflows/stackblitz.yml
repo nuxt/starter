@@ -1,0 +1,34 @@
+name: reset lockfile
+
+on:
+  push:
+    branches:
+      - '**-stackblitz'
+
+permissions:
+  contents: write
+
+jobs:
+  reset-lockfile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: reset lockfile
+        run: |
+          cat << 'EOF' > pnpm-lock.yaml
+          lockfileVersion: '6.0'
+          
+          settings:
+            autoInstallPeers: true
+            excludeLinksFromLockfile: false
+          EOF
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "chore: reset pnpm-lock.yml for stackblitz"
+          git push
