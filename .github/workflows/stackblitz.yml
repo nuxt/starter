@@ -1,7 +1,7 @@
 name: reset lockfile
 
 on:
-  pull_request:
+  push:
     branches:
       - 'renovate/*-stackblitz*'
 
