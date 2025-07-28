@@ -44,12 +44,12 @@
     "@iconify-json/carbon": "^1.2.11",
     "@nuxt/devtools": "^2.6.2",
     "@nuxt/devtools-ui-kit": "^2.6.2",
-    "@nuxt/eslint-config": "^1.6.0",
-    "@nuxt/module-builder": "^1.0.1",
+    "@nuxt/eslint-config": "^1.7.1",
+    "@nuxt/module-builder": "^1.0.2",
     "@nuxt/schema": "^4.0.1",
     "@nuxt/test-utils": "^3.19.2",
     "changelogen": "^0.6.2",
-    "eslint": "^9.31.0",
+    "eslint": "^9.32.0",
     "nuxt": "^4.0.1",
     "vitest": "^3.2.4"
   }
