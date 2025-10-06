@@ -44,9 +44,9 @@
     "@nuxt/test-utils": "^3.19.2",
     "@types/node": "latest",
     "changelogen": "^0.6.2",
-    "eslint": "^9.36.0",
+    "eslint": "^9.37.0",
     "nuxt": "^4.1.2",
-    "typescript": "~5.9.2",
+    "typescript": "~5.9.3",
     "vitest": "^3.2.4",
     "vue-tsc": "^3.1.0"
   }
