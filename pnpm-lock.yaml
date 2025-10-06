@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@oxc-minify/binding-wasm32-wasi':
-    specifier: 0.87.0
-    version: 0.87.0
+    specifier: 0.93.0
+    version: 0.93.0
   '@oxc-parser/binding-wasm32-wasi':
-    specifier: 0.87.0
-    version: 0.87.0
+    specifier: 0.93.0
+    version: 0.93.0
   '@oxc-transform/binding-wasm32-wasi':
-    specifier: 0.87.0
-    version: 0.87.0
+    specifier: 0.93.0
+    version: 0.93.0
   nuxt:
     specifier: ^3.19.2
     version: 3.19.2(@vue/compiler-sfc@3.5.22)(vite@7.1.9)
@@ -1015,6 +1015,16 @@ packages:
     resolution: {integrity: sha512-h0xluvc+YryfH5G5dndjGHuA/D4Kp85EkPMxqoOjNudOKDCtdobEaC9horhCqnOOQ0lgn+PGFl3w8u4ToOuRrA==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
+    requiresBuild: true
+    dependencies:
+      '@napi-rs/wasm-runtime': 1.0.6
+    dev: false
+    optional: true
+
+  /@oxc-minify/binding-wasm32-wasi@0.93.0:
+    resolution: {integrity: sha512-cW338ha926sD39uRDOrD/OMBgzosVtVPthXj1cl5rW9OQxuduXNqWbn/rJCA4X16T3IUcUnIbP2oCR8NI9D9xw==}
+    engines: {node: '>=14.0.0'}
+    cpu: [wasm32]
     dependencies:
       '@napi-rs/wasm-runtime': 1.0.6
     dev: false
@@ -1147,6 +1157,16 @@ packages:
 
   /@oxc-parser/binding-wasm32-wasi@0.87.0:
     resolution: {integrity: sha512-2jgeEeOa4GbQQg2Et/gFTgs5wKS/+CxIg+CN2mMOJ4EqbmvUVeGiumO01oFOWTYnJy1oONwIocBzrnMuvOcItA==}
+    engines: {node: '>=14.0.0'}
+    cpu: [wasm32]
+    requiresBuild: true
+    dependencies:
+      '@napi-rs/wasm-runtime': 1.0.6
+    dev: false
+    optional: true
+
+  /@oxc-parser/binding-wasm32-wasi@0.93.0:
+    resolution: {integrity: sha512-EXyCyY4GJO+SNTQJPPmJJwYbPkPOzw2nxSRMmUlwG19WKO7QHzHyL6u+4hXpp5IwgIWvgQgoix2/pB9JF+EA7w==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
     dependencies:
@@ -1285,6 +1305,16 @@ packages:
 
   /@oxc-transform/binding-wasm32-wasi@0.87.0:
     resolution: {integrity: sha512-4uRjJQnt/+kmJUIC6Iwzn+MqqZhLP1zInPtDwgL37KI4VuUewUQWoL+sggMssMEgm7ZJwOPoZ6piuSWwMgOqgQ==}
+    engines: {node: '>=14.0.0'}
+    cpu: [wasm32]
+    requiresBuild: true
+    dependencies:
+      '@napi-rs/wasm-runtime': 1.0.6
+    dev: false
+    optional: true
+
+  /@oxc-transform/binding-wasm32-wasi@0.93.0:
+    resolution: {integrity: sha512-pMUgg0Mm5ASd8oEPf/yiZmHCqH5WMC0mjCK3CccEvfpUf+WC8WYiKiLkPz+0e7AyPW/Kb+MDI9FaYDKQ5QgyoQ==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
     dependencies:
