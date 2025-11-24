@@ -6,17 +6,17 @@ settings:
 
 dependencies:
   '@oxc-minify/binding-wasm32-wasi':
-    specifier: 0.98.0
-    version: 0.98.0
+    specifier: 0.99.0
+    version: 0.99.0
   '@oxc-parser/binding-wasm32-wasi':
-    specifier: 0.98.0
-    version: 0.98.0
+    specifier: 0.99.0
+    version: 0.99.0
   '@oxc-transform/binding-wasm32-wasi':
-    specifier: 0.98.0
-    version: 0.98.0
+    specifier: 0.99.0
+    version: 0.99.0
   nuxt:
     specifier: ^3.20.1
-    version: 3.20.1(@vue/compiler-sfc@3.5.24)(vite@7.2.4)
+    version: 3.20.1(@vue/compiler-sfc@3.5.25)(vite@7.2.4)
   vue:
     specifier: ^3.5.25
     version: 3.5.25
@@ -870,7 +870,7 @@ packages:
       klona: 2.0.6
       mocked-exports: 0.1.1
       nitropack: 2.12.9
-      nuxt: 3.20.1(@vue/compiler-sfc@3.5.24)(vite@7.2.4)
+      nuxt: 3.20.1(@vue/compiler-sfc@3.5.25)(vite@7.2.4)
       pathe: 2.0.3
       pkg-types: 2.3.0
       radix3: 1.1.2
@@ -979,7 +979,7 @@ packages:
       magic-string: 0.30.21
       mlly: 1.8.0
       mocked-exports: 0.1.1
-      nuxt: 3.20.1(@vue/compiler-sfc@3.5.24)(vite@7.2.4)
+      nuxt: 3.20.1(@vue/compiler-sfc@3.5.25)(vite@7.2.4)
       ohash: 2.0.11
       pathe: 2.0.3
       perfect-debounce: 2.0.0
@@ -1139,8 +1139,8 @@ packages:
     dev: false
     optional: true
 
-  /@oxc-minify/binding-wasm32-wasi@0.98.0:
-    resolution: {integrity: sha512-VVNRbDWHZ7+Viv14Vy1y2yutOzLdivtVKKtcSt+xFSoS2wDhkn0KtRMnNTBVUnxjYqkwrDaDfcqhez5jA5bAUA==}
+  /@oxc-minify/binding-wasm32-wasi@0.99.0:
+    resolution: {integrity: sha512-JNhisxctWSXAk78NdPvf+ecrBfnmTOpkVjdW+iZXYPBlzA5Yv4anrbIBBkwRf/3ITsGE9Xaw02/WZTDDU4fVlQ==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
     dependencies:
@@ -1283,8 +1283,8 @@ packages:
     dev: false
     optional: true
 
-  /@oxc-parser/binding-wasm32-wasi@0.98.0:
-    resolution: {integrity: sha512-vp2OlfPGYMudNlDLL5+UJPPRn/RUI2VMFhKBnpC+nuAOz69IOf70ajwDATw+9jc8vVftuDzn06u+XTWJZGkGvQ==}
+  /@oxc-parser/binding-wasm32-wasi@0.99.0:
+    resolution: {integrity: sha512-DKA4j0QerUWSMADziLM5sAyM7V53Fj95CV9SjP77bPfEfT7MnvFKnneaRMqPK1cpzjAGiQF52OBUIKyk0dwOQA==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
     dependencies:
@@ -1431,8 +1431,8 @@ packages:
     dev: false
     optional: true
 
-  /@oxc-transform/binding-wasm32-wasi@0.98.0:
-    resolution: {integrity: sha512-aGogNfRPf0+MBivq4X+yvBbkywG2H+Ejr604P6Q1ZPtM2W2HG5f2JHNvNei2zE5QRP9CB2Go8vaGQSQ5H98a/g==}
+  /@oxc-transform/binding-wasm32-wasi@0.99.0:
+    resolution: {integrity: sha512-NoaFl5gqm9rXq6dcG6O6XNvn/4tyRjuqWuMRnuMqJ0F7Zo/+qfdsXwwo+VuUCmDMxSVUz0DTMJVJIAVyZoBkQA==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
     dependencies:
@@ -4040,7 +4040,7 @@ packages:
       boolbase: 1.0.0
     dev: false
 
-  /nuxt@3.20.1(@vue/compiler-sfc@3.5.24)(vite@7.2.4):
+  /nuxt@3.20.1(@vue/compiler-sfc@3.5.25)(vite@7.2.4):
     resolution: {integrity: sha512-1d0tBndWdC3DQ/8s6cZqD6jc7DmFG4hIswjK2sYfYNsPzVe3WiM+svuXd9ixUGe6E13StaepJLDubz2GLyU+XQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
@@ -4106,7 +4106,7 @@ packages:
       unctx: 2.4.1
       unimport: 5.5.0
       unplugin: 2.3.11
-      unplugin-vue-router: 0.16.2(@vue/compiler-sfc@3.5.24)(vue-router@4.6.3)(vue@3.5.25)
+      unplugin-vue-router: 0.16.2(@vue/compiler-sfc@3.5.25)(vue-router@4.6.3)(vue@3.5.25)
       untyped: 2.0.0
       vue: 3.5.25
       vue-router: 4.6.3(vue@3.5.25)
@@ -5392,7 +5392,7 @@ packages:
       picomatch: 4.0.3
     dev: false
 
-  /unplugin-vue-router@0.16.2(@vue/compiler-sfc@3.5.24)(vue-router@4.6.3)(vue@3.5.25):
+  /unplugin-vue-router@0.16.2(@vue/compiler-sfc@3.5.25)(vue-router@4.6.3)(vue@3.5.25):
     resolution: {integrity: sha512-lE6ZjnHaXfS2vFI/PSEwdKcdOo5RwAbCKUnPBIN9YwLgSWas3x+qivzQvJa/uxhKzJldE6WK43aDKjGj9Rij9w==}
     peerDependencies:
       '@vue/compiler-sfc': ^3.5.17
@@ -5403,7 +5403,7 @@ packages:
     dependencies:
       '@babel/generator': 7.28.5
       '@vue-macros/common': 3.1.1(vue@3.5.25)
-      '@vue/compiler-sfc': 3.5.24
+      '@vue/compiler-sfc': 3.5.25
       '@vue/language-core': 3.1.5
       ast-walker-scope: 0.8.3
       chokidar: 4.0.3
