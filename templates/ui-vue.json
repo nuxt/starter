@@ -1,6 +1,6 @@
 {
   "name": "ui-vue",
-  "description": "Use Nuxt UI with a plain Vue website.",
+  "description": "Use Nuxt UI with a plain Vue website",
   "defaultDir": "vue-app",
   "url": "https://ui.nuxt.com",
   "tar": "https://codeload.github.com/nuxt-ui-templates/starter-vue/tar.gz/refs/heads/main"

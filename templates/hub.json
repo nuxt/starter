@@ -1,6 +1,6 @@
 {
   "name": "hub",
-  "description": "A minimal app running on the edge with NuxtHub.",
+  "description": "App running on the edge with NuxtHub",
   "defaultDir": "nuxthub-app",
   "url": "https://hub.nuxt.com",
   "tar": "https://codeload.github.com/nuxt-hub/hello-edge/tar.gz/refs/heads/main"

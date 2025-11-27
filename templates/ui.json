@@ -1,6 +1,6 @@
 {
   "name": "ui",
-  "description": "Starter with Nuxt UI.",
+  "description": "App using Nuxt UI",
   "defaultDir": "nuxt-app",
   "url": "https://ui.nuxt.com",
   "tar": "https://codeload.github.com/nuxt-ui-templates/starter/tar.gz/refs/heads/main"
