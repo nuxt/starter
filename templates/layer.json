@@ -1,5 +1,6 @@
 {
   "name": "layer",
+  "description": "A minimal setup for a standalone Nuxt layer.",
   "defaultDir": "nuxt-layer",
   "url": "https://nuxt.com",
   "tar": "https://codeload.github.com/nuxt/starter/tar.gz/refs/heads/layer"
