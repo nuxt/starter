@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "@nuxt/content": "^2.13.4",
-    "nuxt": "^4.2.1"
+    "nuxt": "^4.2.2"
   }
 }
