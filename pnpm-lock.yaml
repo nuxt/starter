@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@oxc-minify/binding-wasm32-wasi':
-    specifier: 0.102.0
-    version: 0.102.0
+    specifier: 0.103.0
+    version: 0.103.0
   '@oxc-parser/binding-wasm32-wasi':
-    specifier: 0.102.0
-    version: 0.102.0
+    specifier: 0.103.0
+    version: 0.103.0
   '@oxc-transform/binding-wasm32-wasi':
-    specifier: 0.102.0
-    version: 0.102.0
+    specifier: 0.103.0
+    version: 0.103.0
   nuxt:
     specifier: ^3.20.2
     version: 3.20.2(@vue/compiler-sfc@3.5.25)(vite@7.2.7)
@@ -21,8 +21,8 @@ dependencies:
     specifier: ^3.5.25
     version: 3.5.25
   vue-router:
-    specifier: ^4.6.3
-    version: 4.6.3(vue@3.5.25)
+    specifier: ^4.6.4
+    version: 4.6.4(vue@3.5.25)
 
 packages:
 
@@ -1406,6 +1406,16 @@ packages:
     resolution: {integrity: sha512-52SepCb9e+8cVisGa9S/F14K8PxW0AnbV1j4KEYi8uwfkUIxeDNKRHVHzPoBXNrr0yxW0EHLn/3i8J7a2YCpWw==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
+    requiresBuild: true
+    dependencies:
+      '@napi-rs/wasm-runtime': 1.1.0
+    dev: false
+    optional: true
+
+  /@oxc-minify/binding-wasm32-wasi@0.103.0:
+    resolution: {integrity: sha512-MiurL8lTNsh+IcVzG1KT0MyYE8RdA2xr6nUS2gojeWWMix9MbJtZemP55+mLFKb/4CepsyrpxeFmQX5rIYleTQ==}
+    engines: {node: '>=14.0.0'}
+    cpu: [wasm32]
     dependencies:
       '@napi-rs/wasm-runtime': 1.1.0
     dev: false
@@ -1538,6 +1548,16 @@ packages:
 
   /@oxc-parser/binding-wasm32-wasi@0.102.0:
     resolution: {integrity: sha512-w6HRyArs1PBb9rDsQSHlooe31buUlUI2iY8sBzp62jZ1tmvaJo9EIVTQlRNDkwJmk9DF9uEyIJ82EkZcCZTs9A==}
+    engines: {node: '>=14.0.0'}
+    cpu: [wasm32]
+    requiresBuild: true
+    dependencies:
+      '@napi-rs/wasm-runtime': 1.1.0
+    dev: false
+    optional: true
+
+  /@oxc-parser/binding-wasm32-wasi@0.103.0:
+    resolution: {integrity: sha512-sJ2D8YNJKBoNKwH1gsr3gd9CcOWDlWc0mhq4f0GIcq6gkJJ3LieZefED1g8nUKV21Utb4I5i02/9Ia2pbpkc7Q==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
     dependencies:
@@ -1676,6 +1696,16 @@ packages:
 
   /@oxc-transform/binding-wasm32-wasi@0.102.0:
     resolution: {integrity: sha512-M6myOXxHty3L2TJEB1NlJPtQm0c0LmivAxcGv/+DSDadOoB/UnOUbjM8W2Utlh5IYS9ARSOjqHtBiPYLWJ15XA==}
+    engines: {node: '>=14.0.0'}
+    cpu: [wasm32]
+    requiresBuild: true
+    dependencies:
+      '@napi-rs/wasm-runtime': 1.1.0
+    dev: false
+    optional: true
+
+  /@oxc-transform/binding-wasm32-wasi@0.103.0:
+    resolution: {integrity: sha512-SnVXf64oLI980zXLOJe0MOWTkjvqnJVKbonmSVRRGC6v1fHUKBmvYtYkYcjgGzul3U+bikCFjSeVqxmLdEq+Zw==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
     dependencies:
@@ -4348,10 +4378,10 @@ packages:
       unctx: 2.4.1
       unimport: 5.5.0
       unplugin: 2.3.11
-      unplugin-vue-router: 0.19.0(@vue/compiler-sfc@3.5.25)(vue-router@4.6.3)(vue@3.5.25)
+      unplugin-vue-router: 0.19.0(@vue/compiler-sfc@3.5.25)(vue-router@4.6.4)(vue@3.5.25)
       untyped: 2.0.0
       vue: 3.5.25
-      vue-router: 4.6.3(vue@3.5.25)
+      vue-router: 4.6.4(vue@3.5.25)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -5641,7 +5671,7 @@ packages:
       picomatch: 4.0.3
     dev: false
 
-  /unplugin-vue-router@0.19.0(@vue/compiler-sfc@3.5.25)(vue-router@4.6.3)(vue@3.5.25):
+  /unplugin-vue-router@0.19.0(@vue/compiler-sfc@3.5.25)(vue-router@4.6.4)(vue@3.5.25):
     resolution: {integrity: sha512-UlqWIZgxg28gicggB2Zv4aUYq07i38q/dLDl0fzMgidjm+zuDeoAZSIr5uc/szKhGNZW1vMiqXQOzjgOUG0VIg==}
     peerDependencies:
       '@vue/compiler-sfc': ^3.5.17
@@ -5667,7 +5697,7 @@ packages:
       tinyglobby: 0.2.15
       unplugin: 2.3.11
       unplugin-utils: 0.3.1
-      vue-router: 4.6.3(vue@3.5.25)
+      vue-router: 4.6.4(vue@3.5.25)
       yaml: 2.8.2
     transitivePeerDependencies:
       - typescript
@@ -6003,8 +6033,8 @@ packages:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
     dev: false
 
-  /vue-router@4.6.3(vue@3.5.25):
-    resolution: {integrity: sha512-ARBedLm9YlbvQomnmq91Os7ck6efydTSpRP3nuOKCvgJOHNrhRoJDSKtee8kcL1Vf7nz6U+PMBL+hTvR3bTVQg==}
+  /vue-router@4.6.4(vue@3.5.25):
+    resolution: {integrity: sha512-Hz9q5sa33Yhduglwz6g9skT8OBPii+4bFn88w6J+J4MfEo4KRRpmiNG/hHHkdbRFlLBOqxN8y8gf2Fb0MTUgVg==}
     peerDependencies:
       vue: ^3.5.0
     dependencies:
