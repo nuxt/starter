@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^3.9.0",
-    "nuxt": "^4.2.2"
+    "nuxt": "^4.2.2",
+    "sqlite3": "^5.1.7"
   }
 }
