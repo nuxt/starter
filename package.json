@@ -22,6 +22,9 @@
   "files": [
     "dist"
   ],
+  "workspaces": [
+    "playground"
+  ],
   "scripts": {
     "prepack": "nuxt-module-build build",
     "dev": "npm run dev:prepare && nuxt dev playground",

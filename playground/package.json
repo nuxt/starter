@@ -8,6 +8,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "my-module": "latest",
     "nuxt": "^4.2.2"
   }
 }
