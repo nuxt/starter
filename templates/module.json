@@ -1,7 +1,8 @@
 {
-  "name": "module",
-  "description": "Nuxt module",
+  "name": "Module",
+  "description": "Starter to create your first Nuxt module.",
+  "image": "data:image/svg+xml,%3Csvg width='34' height='34' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M29.117 9.283V9.15l-.1-.25a1.186 1.186 0 0 0-.117-.15 1.571 1.571 0 0 0-.15-.2l-.15-.117-.267-.133-12.5-7.717a1.667 1.667 0 0 0-1.766 0L1.667 8.3l-.15.133-.15.117c-.056.063-.106.13-.15.2a1.183 1.183 0 0 0-.117.15l-.1.25v.133c-.016.144-.016.29 0 .434v14.566a1.667 1.667 0 0 0 .783 1.417l12.5 7.717a.784.784 0 0 0 .25.1h.134c.282.09.584.09.866 0h.134a.784.784 0 0 0 .25-.1L28.333 25.7a1.667 1.667 0 0 0 .784-1.417V9.717c.016-.144.016-.29 0-.434ZM13.333 29.017 4.167 23.35V12.717l9.166 5.65v10.65ZM15 15.483 5.667 9.717 15 3.967l9.333 5.75L15 15.483Zm10.833 7.867-9.166 5.667v-10.65l9.166-5.65V23.35Z' fill='%2300BD6F'/%3E%3C/svg%3E",
   "defaultDir": "nuxt-module",
-  "url": "https://nuxt.com",
+  "url": "https://nuxt.com/docs/4.x/guide/going-further/modules",
   "tar": "https://codeload.github.com/nuxt/starter/tar.gz/refs/heads/module"
 }

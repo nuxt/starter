@@ -1,5 +1,6 @@
 {
   "name": "layer",
+  "deprecated": true,
   "description": "Standalone Nuxt layer",
   "defaultDir": "nuxt-layer",
   "url": "https://nuxt.com",

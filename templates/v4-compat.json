@@ -1,5 +1,6 @@
 {
   "name": "v4-compat",
+  "deprecated": true,
   "description": "Use Nuxt 3 with compatibility with Nuxt 4 breaking changes",
   "defaultDir": "nuxt-app",
   "url": "https://nuxt.com",

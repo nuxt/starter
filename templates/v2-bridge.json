@@ -1,5 +1,6 @@
 {
   "name": "v2-bridge",
+  "deprecated": true,
   "description": "Use Nuxt 2 with Nuxt Bridge",
   "defaultDir": "nuxt-app",
   "url": "https://github.com/nuxt/bridge",

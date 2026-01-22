@@ -1,5 +1,6 @@
 {
   "name": "doc-driven",
+  "deprecated": true,
   "description": "Document-driven website",
   "defaultDir": "nuxt-app",
   "url": "https://content.nuxt.com",

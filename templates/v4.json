@@ -1,5 +1,6 @@
 {
   "name": "v4",
+  "deprecated": true,
   "description": "Minimal setup for Nuxt 4",
   "defaultDir": "nuxt-app",
   "url": "https://nuxt.com",

@@ -1,5 +1,6 @@
 {
   "name": "module-devtools",
+  "deprecated": true,
   "description": "Nuxt module with DevTools integration",
   "defaultDir": "nuxt-module",
   "url": "https://nuxt.com",
