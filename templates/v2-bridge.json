@@ -4,5 +4,7 @@
   "description": "Use Nuxt 2 with Nuxt Bridge",
   "defaultDir": "nuxt-app",
   "url": "https://github.com/nuxt/bridge",
-  "tar": "https://codeload.github.com/nuxt/starter/tar.gz/refs/heads/v2-bridge"
+  "tar": "https://codeload.github.com/nuxt/starter/tar.gz/refs/heads/v2-bridge",
+  "repo": "nuxt/starter",
+  "branch": "v2-bridge"
 }

@@ -4,5 +4,7 @@
   "image": "data:image/svg+xml,%3Csvg width='34' height='34' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 14h10a1.667 1.667 0 0 0 1.667-1.667v-10A1.667 1.667 0 0 0 22 .667H12a1.667 1.667 0 0 0-1.667 1.666v10A1.667 1.667 0 0 0 12 14Zm1.667-10h6.666v6.667h-6.666V4ZM32 10.667h-3.333a1.667 1.667 0 0 0 0 3.333H32a1.667 1.667 0 1 0 0-3.333Zm-3.333-3.334H32A1.667 1.667 0 1 0 32 4h-3.333a1.667 1.667 0 0 0 0 3.333ZM2 7.333h3.333a1.667 1.667 0 1 0 0-3.333H2a1.667 1.667 0 1 0 0 3.333ZM2 14h3.333a1.667 1.667 0 1 0 0-3.333H2A1.667 1.667 0 0 0 2 14Zm30 3.333H2a1.667 1.667 0 1 0 0 3.334h30a1.667 1.667 0 1 0 0-3.334ZM18.667 24H2a1.667 1.667 0 1 0 0 3.333h16.667a1.667 1.667 0 0 0 0-3.333Z' fill='%2300BD6F'/%3E%3C/svg%3E",
   "defaultDir": "nuxt-app",
   "url": "https://content.nuxt.com",
-  "tar": "https://codeload.github.com/nuxt/starter/tar.gz/refs/heads/content"
+  "tar": "https://codeload.github.com/nuxt/starter/tar.gz/refs/heads/content",
+  "repo": "nuxt/starter",
+  "branch": "content"
 }

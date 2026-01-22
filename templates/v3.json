@@ -4,5 +4,7 @@
   "description": "Minimal setup for Nuxt 3",
   "defaultDir": "nuxt-app",
   "url": "https://nuxt.com",
-  "tar": "https://codeload.github.com/nuxt/starter/tar.gz/refs/heads/v3"
+  "tar": "https://codeload.github.com/nuxt/starter/tar.gz/refs/heads/v3",
+  "repo": "nuxt/starter",
+  "branch": "v3"
 }

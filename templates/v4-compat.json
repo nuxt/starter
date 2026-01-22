@@ -4,5 +4,7 @@
   "description": "Use Nuxt 3 with compatibility with Nuxt 4 breaking changes",
   "defaultDir": "nuxt-app",
   "url": "https://nuxt.com",
-  "tar": "https://codeload.github.com/nuxt/starter/tar.gz/refs/heads/v4-compat"
+  "tar": "https://codeload.github.com/nuxt/starter/tar.gz/refs/heads/v4-compat",
+  "repo": "nuxt/starter",
+  "branch": "v4-compat"
 }
