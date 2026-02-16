@@ -36,15 +36,15 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/devtools-kit": "^3.1.1",
+    "@nuxt/devtools-kit": "^3.2.1",
     "@nuxt/kit": "^4.3.1",
     "sirv": "^3.0.2"
   },
   "devDependencies": {
     "@iconify-json/carbon": "^1.2.18",
-    "@nuxt/devtools": "^3.1.1",
-    "@nuxt/devtools-ui-kit": "^3.1.1",
-    "@nuxt/eslint-config": "^1.14.0",
+    "@nuxt/devtools": "^3.2.1",
+    "@nuxt/devtools-ui-kit": "^3.2.1",
+    "@nuxt/eslint-config": "^1.15.1",
     "@nuxt/module-builder": "^1.0.2",
     "@nuxt/schema": "^4.3.1",
     "@nuxt/test-utils": "^4.0.0",
