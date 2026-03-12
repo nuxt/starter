@@ -21,8 +21,8 @@ dependencies:
     specifier: ^3.5.30
     version: 3.5.30
   vue-router:
-    specifier: ^4.6.4
-    version: 4.6.4(vue@3.5.30)
+    specifier: ^5.0.3
+    version: 5.0.3(@vue/compiler-sfc@3.5.30)(vue@3.5.30)
 
 packages:
 
@@ -2337,6 +2337,12 @@ packages:
 
   /@vue/devtools-api@6.6.4:
     resolution: {integrity: sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==}
+    dev: false
+
+  /@vue/devtools-api@8.0.7:
+    resolution: {integrity: sha512-tc1TXAxclsn55JblLkFVcIRG7MeSJC4fWsPjfM7qu/IcmPUYnQ5Q8vzWwBpyDY24ZjmZTUCCwjRSNbx58IhlAA==}
+    dependencies:
+      '@vue/devtools-kit': 8.0.7
     dev: false
 
   /@vue/devtools-core@8.0.7(vue@3.5.30):
@@ -5963,6 +5969,42 @@ packages:
     dependencies:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.30
+    dev: false
+
+  /vue-router@5.0.3(@vue/compiler-sfc@3.5.30)(vue@3.5.30):
+    resolution: {integrity: sha512-nG1c7aAFac7NYj8Hluo68WyWfc41xkEjaR0ViLHCa3oDvTQ/nIuLJlXJX1NUPw/DXzx/8+OKMng045HHQKQKWw==}
+    peerDependencies:
+      '@pinia/colada': '>=0.21.2'
+      '@vue/compiler-sfc': ^3.5.17
+      pinia: ^3.0.4
+      vue: ^3.5.0
+    peerDependenciesMeta:
+      '@pinia/colada':
+        optional: true
+      '@vue/compiler-sfc':
+        optional: true
+      pinia:
+        optional: true
+    dependencies:
+      '@babel/generator': 7.29.1
+      '@vue-macros/common': 3.1.2(vue@3.5.30)
+      '@vue/compiler-sfc': 3.5.30
+      '@vue/devtools-api': 8.0.7
+      ast-walker-scope: 0.8.3
+      chokidar: 5.0.0
+      json5: 2.2.3
+      local-pkg: 1.1.2
+      magic-string: 0.30.21
+      mlly: 1.8.1
+      muggle-string: 0.4.1
+      pathe: 2.0.3
+      picomatch: 4.0.3
+      scule: 1.3.0
+      tinyglobby: 0.2.15
+      unplugin: 3.0.0
+      unplugin-utils: 0.3.1
+      vue: 3.5.30
+      yaml: 2.8.2
     dev: false
 
   /vue@3.5.30:
