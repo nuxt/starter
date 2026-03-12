@@ -15,7 +15,7 @@ dependencies:
     specifier: 0.118.0
     version: 0.118.0
   nuxt:
-    specifier: ^3.21.1
+    specifier: ^3.21.2
     version: 3.21.2(@vue/compiler-sfc@3.5.30)(typescript@5.9.3)(vite@7.3.1)
   vue:
     specifier: ^3.5.30
