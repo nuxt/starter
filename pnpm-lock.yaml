@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@oxc-minify/binding-wasm32-wasi':
-    specifier: 0.118.0
-    version: 0.118.0
+    specifier: 0.119.0
+    version: 0.119.0
   '@oxc-parser/binding-wasm32-wasi':
-    specifier: 0.118.0
-    version: 0.118.0
+    specifier: 0.119.0
+    version: 0.119.0
   '@oxc-transform/binding-wasm32-wasi':
-    specifier: 0.118.0
-    version: 0.118.0
+    specifier: 0.119.0
+    version: 0.119.0
   nuxt:
     specifier: ^4.4.2
     version: 4.4.2(@babel/core@7.29.0)(typescript@5.9.3)(vite@7.3.1)
@@ -1201,8 +1201,8 @@ packages:
     dev: false
     optional: true
 
-  /@oxc-minify/binding-wasm32-wasi@0.118.0:
-    resolution: {integrity: sha512-kv2TE4dnQl5Xb3fPuF3xMr0Oh3tGAF712/FNMWseCh985DwkZBJ0AqGrJABTaebbznRqPYIOtqVVz3OayTwMYQ==}
+  /@oxc-minify/binding-wasm32-wasi@0.119.0:
+    resolution: {integrity: sha512-3+7brMnkNfPzglvM7IXNxunNmYfh5Vzf+MgLWkOiqkJtqHiSSPeUxdOiuZSkWdxzwaJ4dXp3hI+kZybKmwKUIg==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
     dependencies:
@@ -1390,8 +1390,8 @@ packages:
     dev: false
     optional: true
 
-  /@oxc-parser/binding-wasm32-wasi@0.118.0:
-    resolution: {integrity: sha512-32jl5sokXqztJVPPNGArEq3BCh1DYCvhINHB5aFBWq1kumGC22VplMaQOg47AB1P19R1qguTe/rFckg/MN7ymA==}
+  /@oxc-parser/binding-wasm32-wasi@0.119.0:
+    resolution: {integrity: sha512-KpOU6fLqevFDP6ndkgE4BPoceELM4bOsEsAXjpe+FKYuUyEzHssYPBmxouGpXDQeAeWTBIjosw5yElLMRPuccw==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
     dependencies:
@@ -1583,8 +1583,8 @@ packages:
     dev: false
     optional: true
 
-  /@oxc-transform/binding-wasm32-wasi@0.118.0:
-    resolution: {integrity: sha512-tz6uSlpC3waPlOsUxUMQtvQjlTS44jJZscZJ4oZLSynHy5swNyB69o4oFyjNe5PfLp4uu6USnXIFcCtF9TsZog==}
+  /@oxc-transform/binding-wasm32-wasi@0.119.0:
+    resolution: {integrity: sha512-8G2B7OWpcrHBuI3A+DDALKJ8vIsNKAFk/K6UBO/XEo07CpsDKfYqvTbXLyPrg/fIyPxBB/r7ymmn+CZLZQjDPA==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
     dependencies:
