@@ -40,17 +40,17 @@
     "@nuxt/kit": "^4.4.2"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^3.2.3",
+    "@nuxt/devtools": "^3.2.4",
     "@nuxt/eslint-config": "^1.15.2",
     "@nuxt/module-builder": "^1.0.2",
     "@nuxt/schema": "^4.4.2",
     "@nuxt/test-utils": "^4.0.0",
     "@types/node": "latest",
     "changelogen": "^0.6.2",
-    "eslint": "^10.0.3",
+    "eslint": "^10.1.0",
     "nuxt": "^4.4.2",
     "typescript": "~5.9.3",
-    "vitest": "^4.1.0",
-    "vue-tsc": "^3.2.5"
+    "vitest": "^4.1.1",
+    "vue-tsc": "^3.2.6"
   }
 }
