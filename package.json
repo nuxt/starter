@@ -14,7 +14,7 @@
     "@oxc-parser/binding-wasm32-wasi": "0.121.0",
     "@oxc-minify/binding-wasm32-wasi": "0.121.0",
     "nuxt": "^4.4.2",
-    "vue": "^3.5.30",
+    "vue": "^3.5.31",
     "vue-router": "^5.0.4"
   }
 }
