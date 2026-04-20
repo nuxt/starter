@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@oxc-minify/binding-wasm32-wasi':
-    specifier: 0.125.0
-    version: 0.125.0
+    specifier: 0.126.0
+    version: 0.126.0
   '@oxc-parser/binding-wasm32-wasi':
-    specifier: 0.125.0
-    version: 0.125.0
+    specifier: 0.126.0
+    version: 0.126.0
   '@oxc-transform/binding-wasm32-wasi':
-    specifier: 0.125.0
-    version: 0.125.0
+    specifier: 0.126.0
+    version: 0.126.0
   nuxt:
     specifier: ^4.4.2
     version: 4.4.2(@babel/core@7.29.0)(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(typescript@6.0.2)(vite@7.3.2)
@@ -688,8 +688,8 @@ packages:
       - supports-color
     dev: false
 
-  /@napi-rs/wasm-runtime@1.1.3(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2):
-    resolution: {integrity: sha512-xK9sGVbJWYb08+mTJt3/YV24WxvxpXcXtP6B172paPZ+Ts69Re9dAr7lKwJoeIx8OoeuimEiRZ7umkiUVClmmQ==}
+  /@napi-rs/wasm-runtime@1.1.4(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2):
+    resolution: {integrity: sha512-3NQNNgA1YSlJb/kMH1ildASP9HW7/7kYnRI2szWJaofaS1hWmbGI4H+d3+22aGzXXN9IJ+n+GiFVcGipJP18ow==}
     peerDependencies:
       '@emnapi/core': ^1.7.1
       '@emnapi/runtime': ^1.7.1
@@ -1208,21 +1208,21 @@ packages:
     cpu: [wasm32]
     requiresBuild: true
     dependencies:
-      '@napi-rs/wasm-runtime': 1.1.3(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
+      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
     dev: false
     optional: true
 
-  /@oxc-minify/binding-wasm32-wasi@0.125.0:
-    resolution: {integrity: sha512-nByxlScJnkkC0FPCQYb46jHyz20slevimdZKfOwQIlqmykshnYHSwxNziJG1SUWiTfuL5gHaIztEW+0OjaIrwA==}
+  /@oxc-minify/binding-wasm32-wasi@0.126.0:
+    resolution: {integrity: sha512-vhq547Ibos1xJRpL9mfNJUa2+yNdKiIGaDytmz00aiLJgJti4hlStZTTLXTmL9P7a38wNSobaAr5f6oBnsFS4w==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
     dependencies:
       '@emnapi/core': 1.9.2
       '@emnapi/runtime': 1.9.2
-      '@napi-rs/wasm-runtime': 1.1.3(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
+      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
     dev: false
 
   /@oxc-minify/binding-win32-arm64-msvc@0.117.0:
@@ -1402,21 +1402,21 @@ packages:
     cpu: [wasm32]
     requiresBuild: true
     dependencies:
-      '@napi-rs/wasm-runtime': 1.1.3(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
+      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
     dev: false
     optional: true
 
-  /@oxc-parser/binding-wasm32-wasi@0.125.0:
-    resolution: {integrity: sha512-FkIQFrwlBXoFsazb9NQpQPP4YI9sWWXUOLkIPYlQb+hPwr+VY6d0B7l26yMBR2ktf2h3qyAMOW6Pd+mX9rtOJg==}
+  /@oxc-parser/binding-wasm32-wasi@0.126.0:
+    resolution: {integrity: sha512-Y17hhnrQTrxgAxAyAq401vnN9URsAL4s5AjqpG1NDsXSlhe1yBNnns+rC2P6xcMoitgX5nKH2ryYt9oiFRlzLw==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
     dependencies:
       '@emnapi/core': 1.9.2
       '@emnapi/runtime': 1.9.2
-      '@napi-rs/wasm-runtime': 1.1.3(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
+      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
     dev: false
 
   /@oxc-parser/binding-win32-arm64-msvc@0.117.0:
@@ -1600,21 +1600,21 @@ packages:
     cpu: [wasm32]
     requiresBuild: true
     dependencies:
-      '@napi-rs/wasm-runtime': 1.1.3(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
+      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
     dev: false
     optional: true
 
-  /@oxc-transform/binding-wasm32-wasi@0.125.0:
-    resolution: {integrity: sha512-4qgEvkOaBTqZyY3GSm3cj9ROPrMVtMco28KCYDnLfvlp31L4JoSQS51iL/Eq0tAOp5amqgUl+//7PuxySlQ9LQ==}
+  /@oxc-transform/binding-wasm32-wasi@0.126.0:
+    resolution: {integrity: sha512-qHAfHO61jb9bDNzGoQPICBeyLCy/0Gy5VS7/4xjqhvWtdRz7+RM54mzAbfWOf78BoS68WCc9fd5CLQtU/fM1yQ==}
     engines: {node: '>=14.0.0'}
     cpu: [wasm32]
     dependencies:
       '@emnapi/core': 1.9.2
       '@emnapi/runtime': 1.9.2
-      '@napi-rs/wasm-runtime': 1.1.3(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
+      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)
     dev: false
 
   /@oxc-transform/binding-win32-arm64-msvc@0.117.0:
