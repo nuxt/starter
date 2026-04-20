@@ -47,10 +47,10 @@
     "@nuxt/test-utils": "^4.0.2",
     "@types/node": "latest",
     "changelogen": "^0.6.2",
-    "eslint": "^10.2.0",
+    "eslint": "^10.2.1",
     "nuxt": "^4.4.2",
-    "typescript": "~6.0.2",
+    "typescript": "~6.0.3",
     "vitest": "^4.1.4",
-    "vue-tsc": "^3.2.6"
+    "vue-tsc": "^3.2.7"
   }
 }
