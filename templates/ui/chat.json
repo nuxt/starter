@@ -2,5 +2,7 @@
   "name": "ui-chat",
   "defaultDir": "nuxt-app",
   "url": "https://ui.nuxt.com",
-  "tar": "https://codeload.github.com/nuxt-ui-templates/chat/tar.gz/refs/heads/main"
+  "tar": "https://codeload.github.com/nuxt-ui-templates/chat/tar.gz/refs/heads/main",
+  "repo": "nuxt-ui-templates/chat",
+  "branch": "main"
 }

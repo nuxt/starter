@@ -2,5 +2,7 @@
   "name": "ui-vue-chat",
   "defaultDir": "vue-app",
   "url": "https://ui.nuxt.com",
-  "tar": "https://codeload.github.com/nuxt-ui-templates/chat-vue/tar.gz/refs/heads/main"
+  "tar": "https://codeload.github.com/nuxt-ui-templates/chat-vue/tar.gz/refs/heads/main",
+  "repo": "nuxt-ui-templates/chat-vue",
+  "branch": "main"
 }
