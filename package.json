@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "nuxt": "^4.4.2",
-    "vue": "^3.5.32",
-    "vue-router": "^5.0.4"
+    "vue": "^3.5.33",
+    "vue-router": "^5.0.6"
   }
 }
