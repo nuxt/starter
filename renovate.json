@@ -13,6 +13,7 @@
     "automerge": true
   },
   "baseBranchPatterns": [
+    "main",
     "v3",
     "v3-codesandbox",
     "v3-stackblitz",
