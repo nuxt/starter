@@ -9,8 +9,8 @@ dependencies:
     specifier: 0.130.0
     version: 0.130.0
   '@oxc-parser/binding-wasm32-wasi':
-    specifier: 0.129.0
-    version: 0.129.0
+    specifier: 0.130.0
+    version: 0.130.0
   '@oxc-transform/binding-wasm32-wasi':
     specifier: 0.130.0
     version: 0.130.0
@@ -1645,8 +1645,8 @@ packages:
     dev: false
     optional: true
 
-  /@oxc-parser/binding-wasm32-wasi@0.129.0:
-    resolution: {integrity: sha512-Iie9CcII+ELSinKFnxTR15xhI9qriVivEhbFh3driRNbzms/5ioDAU0fwe8Mf1FEaz3n2FtiUVX0h0nwKLYk0A==}
+  /@oxc-parser/binding-wasm32-wasi@0.130.0:
+    resolution: {integrity: sha512-sJgQkGaBX0WJvPUDfwciex6IcTk5O5NLQ1bhEb6f3nBruh1GshKMRSMt2bxZlYrgBzjyBbJzsnO+InPG0bg+fA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [wasm32]
     dependencies:
