@@ -9,8 +9,8 @@ dependencies:
     specifier: 0.130.0
     version: 0.130.0
   '@oxc-parser/binding-wasm32-wasi':
-    specifier: 0.129.0
-    version: 0.129.0
+    specifier: 0.130.0
+    version: 0.130.0
   '@oxc-transform/binding-wasm32-wasi':
     specifier: 0.130.0
     version: 0.130.0
@@ -1655,6 +1655,17 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [wasm32]
     requiresBuild: true
+    dependencies:
+      '@emnapi/core': 1.10.0
+      '@emnapi/runtime': 1.10.0
+      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+    dev: false
+    optional: true
+
+  /@oxc-parser/binding-wasm32-wasi@0.130.0:
+    resolution: {integrity: sha512-sJgQkGaBX0WJvPUDfwciex6IcTk5O5NLQ1bhEb6f3nBruh1GshKMRSMt2bxZlYrgBzjyBbJzsnO+InPG0bg+fA==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [wasm32]
     dependencies:
       '@emnapi/core': 1.10.0
       '@emnapi/runtime': 1.10.0

@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@oxc-transform/binding-wasm32-wasi": "0.130.0",
-    "@oxc-parser/binding-wasm32-wasi": "0.129.0",
+    "@oxc-parser/binding-wasm32-wasi": "0.130.0",
     "@oxc-minify/binding-wasm32-wasi": "0.130.0",
     "nuxt": "^3.21.5",
     "vue": "^3.5.34",
