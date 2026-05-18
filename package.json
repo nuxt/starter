@@ -17,6 +17,6 @@
     "eslint": "^10.3.0",
     "nuxt": "^4.4.4",
     "typescript": "^6.0.3",
-    "vue": "latest"
+    "vue": "^3.5.34"
   }
 }
