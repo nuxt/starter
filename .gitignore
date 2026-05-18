@@ -5,7 +5,6 @@ nuxt.d.ts
 .output
 .data
 .env
-package-lock.json
 framework
 dist
 .DS_Store
