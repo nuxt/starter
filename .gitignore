@@ -22,5 +22,3 @@ logs
 .env
 .env.*
 !.env.example
-
-pnpm-lock.yaml
