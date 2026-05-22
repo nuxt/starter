@@ -1,7 +1,10 @@
 {
   "name": "doc-driven",
+  "deprecated": true,
   "description": "Document-driven website",
   "defaultDir": "nuxt-app",
   "url": "https://content.nuxt.com",
-  "tar": "https://codeload.github.com/nuxt/starter/tar.gz/refs/heads/doc-driven"
+  "tar": "https://codeload.github.com/nuxt/starter/tar.gz/refs/heads/doc-driven",
+  "repo": "nuxt/starter",
+  "branch": "doc-driven"
 }

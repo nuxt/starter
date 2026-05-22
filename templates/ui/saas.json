@@ -2,5 +2,7 @@
   "name": "ui-saas",
   "defaultDir": "nuxt-app",
   "url": "https://ui.nuxt.com",
-  "tar": "https://codeload.github.com/nuxt-ui-templates/saas/tar.gz/refs/heads/main"
+  "tar": "https://codeload.github.com/nuxt-ui-templates/saas/tar.gz/refs/heads/main",
+  "repo": "nuxt-ui-templates/saas",
+  "branch": "main"
 }

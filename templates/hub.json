@@ -1,7 +1,10 @@
 {
   "name": "hub",
+  "deprecated": true,
   "description": "App running on the edge with NuxtHub",
   "defaultDir": "nuxthub-app",
   "url": "https://hub.nuxt.com",
-  "tar": "https://codeload.github.com/nuxt-hub/hello-edge/tar.gz/refs/heads/main"
+  "tar": "https://codeload.github.com/nuxt-hub/hello-edge/tar.gz/refs/heads/main",
+  "repo": "nuxt-hub/hello-edge",
+  "branch": "main"
 }
