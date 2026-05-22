@@ -13,8 +13,8 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.15.2",
-    "@types/node": "^24.12.2",
-    "eslint": "^10.3.0",
+    "@types/node": "^24.12.4",
+    "eslint": "^10.4.0",
     "nuxt": "^4.4.6",
     "typescript": "^6.0.3",
     "vue": "^3.5.34"
