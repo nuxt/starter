@@ -41,7 +41,7 @@
     "sirv": "^3.0.2"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.2.20",
+    "@iconify-json/carbon": "^1.2.22",
     "@nuxt/devtools": "^3.2.4",
     "@nuxt/devtools-ui-kit": "^3.2.4",
     "@nuxt/eslint-config": "^1.15.2",
@@ -49,8 +49,8 @@
     "@nuxt/schema": "^4.4.6",
     "@nuxt/test-utils": "^4.0.3",
     "changelogen": "^0.6.2",
-    "eslint": "^10.3.0",
+    "eslint": "^10.4.0",
     "nuxt": "^4.4.6",
-    "vitest": "^4.1.5"
+    "vitest": "^4.1.7"
   }
 }
