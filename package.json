@@ -41,7 +41,7 @@
     "sirv": "^3.0.2"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.2.22",
+    "@iconify-json/carbon": "^1.2.23",
     "@nuxt/devtools": "^3.2.4",
     "@nuxt/devtools-ui-kit": "^3.2.4",
     "@nuxt/eslint-config": "^1.15.2",
