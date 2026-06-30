@@ -13,7 +13,7 @@
     "@oxc-transform/binding-wasm32-wasi": "0.137.0",
     "@oxc-parser/binding-wasm32-wasi": "0.137.0",
     "@oxc-minify/binding-wasm32-wasi": "0.137.0",
-    "nuxt": "^3.21.8",
+    "nuxt": "^4.4.8",
     "vue": "^3.5.39",
     "vue-router": "^5.1.0"
   }
