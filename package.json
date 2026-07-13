@@ -9,9 +9,9 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
-    "@nuxt/content": "^3.14.0",
+    "@nuxt/content": "^3.15.0",
     "nuxt": "^4.4.8",
-    "vue": "^3.5.35",
+    "vue": "^3.5.39",
     "vue-router": "^5.1.0"
   }
 }
