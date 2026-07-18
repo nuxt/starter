@@ -4,7 +4,7 @@
   "title": "Nuxt starter template",
   "type": "object",
   "additionalProperties": false,
-  "required": ["name", "tar"],
+  "required": ["name", "tar", "repo", "branch"],
   "properties": {
     "$schema": {
       "type": "string"

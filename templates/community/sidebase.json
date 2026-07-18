@@ -3,5 +3,7 @@
   "name": "nuxt-sidebase",
   "defaultDir": "nuxt-sidebase-app",
   "url": "https://sidebase.io",
-  "tar": "https://codeload.github.com/sidebase/sidebase/tar.gz/refs/heads/main"
+  "tar": "https://codeload.github.com/sidebase/sidebase/tar.gz/refs/heads/main",
+  "repo": "sidebase/sidebase",
+  "branch": "main"
 }
