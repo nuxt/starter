@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/nuxt/starter/templates/template.schema.json",
+  "title": "Nuxt starter template",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "tar", "repo", "branch"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$",
+      "description": "Template identifier: the JSON filename (without extension), prefixed with the parent directory name for nested templates (e.g. `ui/chat.json` -> `ui-chat`)."
+    },
+    "label": {
+      "type": "string",
+      "description": "Human-readable display name. Falls back to `name` when omitted."
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string",
+      "description": "Icon for the template, as a URL or data URI."
+    },
+    "default": {
+      "type": "boolean",
+      "description": "Marks the recommended default template."
+    },
+    "deprecated": {
+      "type": "boolean",
+      "description": "Deprecated templates are hidden from listings but remain installable."
+    },
+    "defaultDir": {
+      "type": "string",
+      "description": "Default directory name for the created project."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Documentation or homepage for the template."
+    },
+    "tar": {
+      "type": "string",
+      "format": "uri",
+      "description": "Tarball URL for the template contents."
+    },
+    "repo": {
+      "type": "string",
+      "pattern": "^[\\w.-]+/[\\w.-]+$",
+      "description": "GitHub repository in `owner/repo` form. Must match `tar`."
+    },
+    "branch": {
+      "type": "string",
+      "description": "Branch within `repo` containing the template. Must match `tar`."
+    }
+  }
+}

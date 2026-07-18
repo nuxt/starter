@@ -1,6 +1,9 @@
 {
+  "$schema": "../../template.schema.json",
   "name": "ui-dashboard",
   "defaultDir": "nuxt-app",
   "url": "https://ui.nuxt.com",
-  "tar": "https://codeload.github.com/nuxt-ui-templates/dashboard/tar.gz/refs/heads/main"
+  "tar": "https://codeload.github.com/nuxt-ui-templates/dashboard/tar.gz/refs/heads/main",
+  "repo": "nuxt-ui-templates/dashboard",
+  "branch": "main"
 }
