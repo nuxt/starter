@@ -1,4 +1,5 @@
 {
+  "$schema": "../template.schema.json",
   "name": "ui-vue",
   "deprecated": true,
   "description": "Use Nuxt UI with a plain Vue website",

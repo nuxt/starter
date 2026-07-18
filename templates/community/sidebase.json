@@ -1,4 +1,5 @@
 {
+  "$schema": "../../template.schema.json",
   "name": "nuxt-sidebase",
   "defaultDir": "nuxt-sidebase-app",
   "url": "https://sidebase.io",

@@ -1,4 +1,5 @@
 {
+  "$schema": "../../template.schema.json",
   "name": "ui-portfolio",
   "defaultDir": "nuxt-app",
   "url": "https://ui.nuxt.com",

@@ -1,4 +1,5 @@
 {
+  "$schema": "../template.schema.json",
   "name": "hub",
   "deprecated": true,
   "description": "App running on the edge with NuxtHub",

@@ -1,4 +1,5 @@
 {
+  "$schema": "../template.schema.json",
   "name": "v4",
   "deprecated": true,
   "description": "Minimal setup for Nuxt 4",

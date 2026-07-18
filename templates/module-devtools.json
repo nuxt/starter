@@ -1,4 +1,5 @@
 {
+  "$schema": "../template.schema.json",
   "name": "module-devtools",
   "deprecated": true,
   "description": "Nuxt module with DevTools integration",

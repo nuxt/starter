@@ -1,4 +1,5 @@
 {
+  "$schema": "../template.schema.json",
   "name": "layer",
   "deprecated": true,
   "description": "Standalone Nuxt layer",
