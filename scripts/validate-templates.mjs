@@ -26,6 +26,11 @@ for (const file of files) {
     continue
   }
 
+  if (template === null || typeof template !== 'object' || Array.isArray(template)) {
+    fail('template must be an object')
+    continue
+  }
+
   for (const key of Object.keys(template)) {
     if (!allowedKeys.has(key)) {
       fail(`unknown key \`${key}\` (add it to template.schema.json if intentional)`)
@@ -38,7 +43,11 @@ for (const file of files) {
     }
   }
 
-  for (const [key, { pattern }] of Object.entries(schema.properties)) {
+  for (const [key, { type, pattern }] of Object.entries(schema.properties)) {
+    if (key in template && typeof template[key] !== type) {
+      fail(`\`${key}\` must be of type ${type}`)
+      continue
+    }
     if (pattern && typeof template[key] === 'string' && !new RegExp(pattern).test(template[key])) {
       fail(`\`${key}\` value ${JSON.stringify(template[key])} does not match pattern ${pattern}`)
     }
