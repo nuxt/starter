@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@oxc-minify/binding-wasm32-wasi':
-    specifier: 0.141.0
-    version: 0.141.0
+    specifier: 0.142.0
+    version: 0.142.0
   '@oxc-parser/binding-wasm32-wasi':
-    specifier: 0.141.0
-    version: 0.141.0
+    specifier: 0.142.0
+    version: 0.142.0
   '@oxc-transform/binding-wasm32-wasi':
-    specifier: 0.141.0
-    version: 0.141.0
+    specifier: 0.142.0
+    version: 0.142.0
   nuxt:
     specifier: ^4.5.1
     version: 4.5.1(vite@7.3.6)
@@ -1296,8 +1296,8 @@ packages:
       - yaml
     dev: false
 
-  /@oxc-minify/binding-wasm32-wasi@0.141.0:
-    resolution: {integrity: sha512-Qb72fqFRs2Xu+KvAwisc1Fxn/rd/KROnFIdkFv77dTVmrKsq2HOCjWvxlPzjHcxNIgGUUJtpmNolrs7GYcopKg==}
+  /@oxc-minify/binding-wasm32-wasi@0.142.0:
+    resolution: {integrity: sha512-YoUTdWtHMEUTjw4J2pfld3OpEibf7S2KvKwISTHSeyOUI4/v7aAr11RKP4DOUR0pGgXcTJOXU4dDu3HakpkpPw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [wasm32]
     dependencies:
@@ -1462,8 +1462,8 @@ packages:
     dev: false
     optional: true
 
-  /@oxc-parser/binding-wasm32-wasi@0.141.0:
-    resolution: {integrity: sha512-HggH++Fkn3OilBn+bs3jpgIFQa34oMAyUUHy0vpGum+gt1Eb5nyLc8dNU/RAPSw6lsLrx7ncKtHSZE+3Sp0l2g==}
+  /@oxc-parser/binding-wasm32-wasi@0.142.0:
+    resolution: {integrity: sha512-3pLDyY3+oogW73RM5uehNgAiR/Xfb7fvO2Q1Z1gIqZ2+50XDVQmBVlRkHXZTU4gKnQHpwETNsYQVsJ3joVB2iA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [wasm32]
     dependencies:
@@ -1507,8 +1507,8 @@ packages:
     resolution: {integrity: sha512-h5LUOzGArYemnW1NMz/DuuQhBi96J6JL2Bk8zE4kvqxB5Sg3jxmCiH4uyOWHDkiKSt5vWlG4FIwCR/DbstcNRQ==}
     dev: false
 
-  /@oxc-transform/binding-wasm32-wasi@0.141.0:
-    resolution: {integrity: sha512-GaQJvcyFJyle5lll67+iYAgv+G21bQXvWPNhD6YIYoR/bV8kS0Qm8YSL22Y/YZC/8RwsneVFWpP2y6VZJfcM/g==}
+  /@oxc-transform/binding-wasm32-wasi@0.142.0:
+    resolution: {integrity: sha512-TQ4FlQ69OdCK7LcifBBWB2XpmnoERl1Ao+Yw6qyxOQyNi+eSgEo9zVKYoJq8/cSH4pSMl9jlEtfUHVJiILUm6A==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [wasm32]
     dependencies:
