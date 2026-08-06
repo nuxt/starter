@@ -12,7 +12,7 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@nuxt/eslint": "^1.16.0",
+    "@nuxt/eslint": "^1.17.0",
     "@types/node": "^24.13.3",
     "eslint": "^10.8.0",
     "nuxt": "^4.5.1",
