@@ -1,0 +1,9 @@
+{
+  "$schema": "../../template.schema.json",
+  "name": "ui-calendar",
+  "defaultDir": "nuxt-app",
+  "url": "https://ui.nuxt.com",
+  "tar": "https://codeload.github.com/nuxt-ui-templates/calendar/tar.gz/refs/heads/main",
+  "repo": "nuxt-ui-templates/calendar",
+  "branch": "main"
+}
