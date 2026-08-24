@@ -10,9 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@oxc-transform/binding-wasm32-wasi": "0.144.0",
-    "@oxc-parser/binding-wasm32-wasi": "0.144.0",
-    "@oxc-minify/binding-wasm32-wasi": "0.144.0",
+    "@oxc-transform/binding-wasm32-wasi": "0.146.0",
+    "@oxc-parser/binding-wasm32-wasi": "0.146.0",
+    "@oxc-minify/binding-wasm32-wasi": "0.146.0",
     "nuxt": "^4.5.2",
     "vue": "^3.5.41",
     "vue-router": "^5.2.0"
