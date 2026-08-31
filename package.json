@@ -41,15 +41,15 @@
     "sirv": "^3.0.2"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.2.25",
+    "@iconify-json/carbon": "^1.2.26",
     "@nuxt/devtools": "^3.4.2",
     "@nuxt/devtools-ui-kit": "^3.4.2",
     "@nuxt/eslint-config": "^1.17.0",
     "@nuxt/module-builder": "^1.0.3",
     "@nuxt/schema": "^4.5.2",
-    "@nuxt/test-utils": "^4.1.0",
+    "@nuxt/test-utils": "^4.2.0",
     "changelogen": "^0.6.2",
-    "eslint": "^10.9.0",
+    "eslint": "^10.9.1",
     "nuxt": "^4.5.2",
     "vitest": "^4.1.11"
   }
