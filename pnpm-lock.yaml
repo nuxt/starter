@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@oxc-minify/binding-wasm32-wasi':
-    specifier: 0.147.0
-    version: 0.147.0
+    specifier: 0.148.0
+    version: 0.148.0
   '@oxc-parser/binding-wasm32-wasi':
-    specifier: 0.147.0
-    version: 0.147.0
+    specifier: 0.148.0
+    version: 0.148.0
   '@oxc-transform/binding-wasm32-wasi':
-    specifier: 0.147.0
-    version: 0.147.0
+    specifier: 0.148.0
+    version: 0.148.0
   nuxt:
     specifier: ^4.5.2
     version: 4.5.2(rolldown@1.2.4)(vite@8.2.1)
@@ -21,8 +21,8 @@ dependencies:
     specifier: ^3.5.42
     version: 3.5.42
   vue-router:
-    specifier: ^5.3.0
-    version: 5.3.0(rolldown@1.2.4)(vite@8.2.1)(vue@3.5.42)
+    specifier: ^5.3.1
+    version: 5.3.1(rolldown@1.2.4)(vite@8.2.1)(vue@3.5.42)
 
 packages:
 
@@ -1169,8 +1169,8 @@ packages:
       - yaml
     dev: false
 
-  /@oxc-minify/binding-wasm32-wasi@0.147.0:
-    resolution: {integrity: sha512-EBS2/Vc5osdsqnEcxXhAWnN0hhvyYVT8gYoC51kJVQpFqI9qtnU8lIxhFLEiu18wL19gj8fFdZWh/vqFCmO3gw==}
+  /@oxc-minify/binding-wasm32-wasi@0.148.0:
+    resolution: {integrity: sha512-u2kFDPJ+xNNYiVJwViaUtx0aueDJx8vSjQdpBK0801a/K+/QBMJh0FvBOtNbwyD/uY3+aUUxPN4Ynxwm6gvATw==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=23.5.0}
     dependencies:
       '@emnapi/core': 2.0.0-alpha.3
@@ -1178,8 +1178,8 @@ packages:
       '@napi-rs/wasm-runtime': 1.2.3(@emnapi/core@2.0.0-alpha.3)(@emnapi/runtime@2.0.0-alpha.3)
     dev: false
 
-  /@oxc-parser/binding-wasm32-wasi@0.147.0:
-    resolution: {integrity: sha512-gtJxikr3aLOKb1QOJ9Y2Jao2HKOYFKopFiq+zZ9xxqfj0OLKQrqpbZ9XPi+MNKExyS4PqoQ0/sKIiJ/KB4cXeQ==}
+  /@oxc-parser/binding-wasm32-wasi@0.148.0:
+    resolution: {integrity: sha512-b6tt7/x2X2GyPaFVfMnsUuidcFWYdiZiYqJkLvOdMjb/ErhQw/8JYhhS+IqlDipRMuJqmc25OQEZpLu7ytcF4g==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=23.5.0}
     dependencies:
       '@emnapi/core': 2.0.0-alpha.3
@@ -1191,8 +1191,8 @@ packages:
     resolution: {integrity: sha512-nuhZIOLuI6TFQ32I/WnUx+SCPY7SdSKwgnFHydAuoS1+Z4BRcaP+RRJmGzl9lw+0OFF7UmaESf7KQRXaNLHypg==}
     dev: false
 
-  /@oxc-transform/binding-wasm32-wasi@0.147.0:
-    resolution: {integrity: sha512-6DYSD/6l9NbItVvkLisacqoRUG96e66DSXeLfYXem45MHVtLTkdYIIax9kQUCh+ZkFLqKRxHcJ5dkxwZbtY/6g==}
+  /@oxc-transform/binding-wasm32-wasi@0.148.0:
+    resolution: {integrity: sha512-O0ZENSWEh1gNzGlJsmm/3ZiA1g6qfWNBUJbTJyXu+kaCGUcqHzvaDUSApivjRufodyWMsu/qJUTS1eE3kE0yVQ==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=23.5.0}
     dependencies:
       '@emnapi/core': 2.0.0-alpha.3
@@ -3992,7 +3992,7 @@ packages:
       verkit: 0.3.2
       vue: 3.5.42
       vue-component-type-helpers: 3.3.10
-      vue-router: 5.3.0(rolldown@1.2.4)(vite@8.2.1)(vue@3.5.42)
+      vue-router: 5.3.1(rolldown@1.2.4)(vite@8.2.1)(vue@3.5.42)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -5699,8 +5699,8 @@ packages:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
     dev: false
 
-  /vue-router@5.3.0(rolldown@1.2.4)(vite@8.2.1)(vue@3.5.42):
-    resolution: {integrity: sha512-a2PBXX9yfkS58JzSJALUffgDa09lEzKmCcEnLaepoIr88L+9hEnsgEQkcadJGID+vtHa0gFpVo064zmylA9fcg==}
+  /vue-router@5.3.1(rolldown@1.2.4)(vite@8.2.1)(vue@3.5.42):
+    resolution: {integrity: sha512-GDBZzgmILxA/kFnkFbJjQZdZ2QQbngnIMMuoUcjhZIfH1RGMaPjPwX5ASnV38qamuA9uhO0RDjSBHTDNG2uXyQ==}
     peerDependencies:
       '@pinia/colada': '>=0.21.2'
       '@vue/compiler-sfc': ^3.5.34 || ^4.0.0
