@@ -12,6 +12,6 @@
   "dependencies": {
     "nuxt": "npm:nuxt-nightly@5x",
     "vue": "^3.5.42",
-    "vue-router": "^5.3.0"
+    "vue-router": "^5.3.1"
   }
 }
