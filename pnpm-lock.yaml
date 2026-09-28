@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@oxc-minify/binding-wasm32-wasi':
-    specifier: 0.150.0
-    version: 0.150.0
+    specifier: 0.151.0
+    version: 0.151.0
   '@oxc-parser/binding-wasm32-wasi':
-    specifier: 0.150.0
-    version: 0.150.0
+    specifier: 0.151.0
+    version: 0.151.0
   '@oxc-transform/binding-wasm32-wasi':
-    specifier: 0.150.0
-    version: 0.150.0
+    specifier: 0.151.0
+    version: 0.151.0
   nuxt:
     specifier: ^4.5.2
     version: 4.5.2(rolldown@1.2.8)(vite@8.3.0)
@@ -1168,8 +1168,8 @@ packages:
       - yaml
     dev: false
 
-  /@oxc-minify/binding-wasm32-wasi@0.150.0:
-    resolution: {integrity: sha512-FFZxDLXQwbsMfzLx6X3Soo79F0TzdCsAecl47Jkgy+APSfu0kenovqT+Nxr+CTTGfrZ+uQmJUeKiPbfsO+PFow==}
+  /@oxc-minify/binding-wasm32-wasi@0.151.0:
+    resolution: {integrity: sha512-kMalYbVPdM8sQut3uefaOoVEX7RrNWzWFF+M3rPX4f8/uWAt0FNGPiRdJ6Tq58y/A+5VvxMMAWJBtWZyX7LK2A==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=23.5.0}
     dependencies:
       '@emnapi/core': 2.0.0-alpha.3
@@ -1177,8 +1177,8 @@ packages:
       '@napi-rs/wasm-runtime': 1.2.4(@emnapi/core@2.0.0-alpha.3)(@emnapi/runtime@2.0.0-alpha.3)
     dev: false
 
-  /@oxc-parser/binding-wasm32-wasi@0.150.0:
-    resolution: {integrity: sha512-bTxhIS4YI/Qr6dt5UACoOUNBeGTMr7tjLTjZzmD93OwMg9Qq5Y4RTmfEWUf4h0DM/Ury+3yVdPAoMEqAE+zFnA==}
+  /@oxc-parser/binding-wasm32-wasi@0.151.0:
+    resolution: {integrity: sha512-4xxbow3+wXN3NFMh6G7GFv5cRoLuAIjLuBCQDsDlaB509IwAlOthcHj5159L1e60b5JqDvpGBO69nhEazzS7GQ==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=23.5.0}
     dependencies:
       '@emnapi/core': 2.0.0-alpha.3
@@ -1190,8 +1190,8 @@ packages:
     resolution: {integrity: sha512-Efcc+iF0j3Bf67YjEqIqWXbX5XddXoK/Mw4K1/JuXwRCZ8N16VR7iT23nlCc9XrveFVh/E5Rqs2StT0V8v9LdA==}
     dev: false
 
-  /@oxc-transform/binding-wasm32-wasi@0.150.0:
-    resolution: {integrity: sha512-6UcaaEXWnYSvJXO9Q9Qtg5A2kjXcLcepUS42zNhp9xKa5IUWlasFNRhb6rDkQ1nIjpipTsRDjvp8uT5ujaBt6w==}
+  /@oxc-transform/binding-wasm32-wasi@0.151.0:
+    resolution: {integrity: sha512-pHIu/TZTNLmKRh7qApCU1klS2CaDrPsOq5bOWNSjriqxgnvU2xwhnum6v1XNTU1Jd1aqPNSvoKWruuUDIdJ5wQ==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=23.5.0}
     dependencies:
       '@emnapi/core': 2.0.0-alpha.3
