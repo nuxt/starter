@@ -41,16 +41,16 @@
     "sirv": "^3.0.2"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.2.27",
+    "@iconify-json/carbon": "^1.2.28",
     "@nuxt/devtools": "^3.4.2",
     "@nuxt/devtools-ui-kit": "^3.4.2",
     "@nuxt/eslint-config": "^1.17.0",
     "@nuxt/module-builder": "^1.0.3",
     "@nuxt/schema": "^4.5.2",
-    "@nuxt/test-utils": "^4.3.2",
+    "@nuxt/test-utils": "^4.3.3",
     "changelogen": "^0.6.2",
-    "eslint": "^10.10.0",
+    "eslint": "^10.12.0",
     "nuxt": "^4.5.2",
-    "vitest": "^5.0.0"
+    "vitest": "^5.0.3"
   }
 }
