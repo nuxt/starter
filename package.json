@@ -9,9 +9,12 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
-    "@nuxt/content": "^3.16.1",
+    "@nuxt/content": "https://pkg.pr.new/nuxt/content-v4-temp/@nuxt/content4@8a9dd9a",
     "nuxt": "^4.6.4",
     "vue": "^3.5.43",
     "vue-router": "^5.3.1"
+  },
+  "overrides": {
+    "comark": "https://pkg.pr.new/comark@d6705ce"
   }
 }

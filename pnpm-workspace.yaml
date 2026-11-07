@@ -1,0 +1,6 @@
+allowBuilds:
+  esbuild: set this to true or false
+# Needed until Nuxt Content v4 and comark are released on npm
+blockExoticSubdeps: false
+overrides:
+  comark: https://pkg.pr.new/comark@d6705ce

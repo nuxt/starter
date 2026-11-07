@@ -1,6 +1,8 @@
 <template>
   <div class="alert" :style="{ 'border-color': color }">
-    <slot></slot>
+    <div>
+      <slot></slot>
+    </div>
   </div>
 </template>
 
