@@ -9,7 +9,7 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
-    "@nuxt/content": "https://pkg.pr.new/nuxt/content-v4-temp/@nuxt/content4@9476cb5",
+    "@nuxt/content": "https://pkg.pr.new/nuxt/content-v4-temp/@nuxt/content4@60b0921",
     "nuxt": "^4.6.4",
     "vue": "^3.5.43",
     "vue-router": "^5.3.1"
