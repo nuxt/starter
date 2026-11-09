@@ -4,5 +4,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
   ],
   devtools: { enabled: true },
+  content: {
+    v3Composables: false,
+  },
   compatibilityDate: '2024-04-03',
 })
