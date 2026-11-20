@@ -15,6 +15,6 @@ export default defineNuxtModule<ModuleOptions>({
     const resolver = createResolver(import.meta.url)
 
     // Leave out the extension: it resolves to the `.ts` source in development and to the built `.js` once published
-    addPlugin(resolver.resolve('./runtime/plugin'))
+    addPlugin(resolver.resolve('./runtime/app/plugin'))
   },
 })
