@@ -8,7 +8,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "my-module": "file:..",
+    "my-module": "link:..",
     "nuxt": "^4.6.4"
   }
 }
