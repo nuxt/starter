@@ -45,26 +45,29 @@ That's it! You can now use My Module in your Nuxt app ✨
   
   ```bash
   # Install dependencies
-  npm install
+  pnpm install
   
-  # Generate type stubs
-  npm run dev:prepare
+  # Generate types for the module and the playground
+  pnpm dev:prepare
   
   # Develop with the playground
-  npm run dev
+  pnpm dev
   
   # Build the playground
-  npm run dev:build
+  pnpm dev:build
   
   # Run ESLint
-  npm run lint
+  pnpm lint
   
   # Run Vitest
-  npm run test
-  npm run test:watch
+  pnpm test
+  pnpm test:watch
+  
+  # Run type checks
+  pnpm test:types
   
   # Release new version
-  npm run release
+  pnpm release
   ```
 
 </details>

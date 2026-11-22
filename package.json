@@ -7,27 +7,36 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/types.d.mts",
-      "import": "./dist/module.mjs"
+      "types": "./.nuxt/module-builder/types.d.mts",
+      "import": "./src/module.ts"
     }
   },
-  "main": "./dist/module.mjs",
+  "main": "./src/module.ts",
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "exports": {
+      ".": {
+        "types": "./dist/types.d.mts",
+        "import": "./dist/module.mjs"
+      }
+    },
+    "main": "./dist/module.mjs"
+  },
   "workspaces": [
     "playground"
   ],
   "scripts": {
-    "prepack": "nuxt-module-build build",
-    "dev": "npm run dev:prepare && nuxt dev playground",
+    "prepack": "tsdown",
+    "dev": "nuxt-module-build prepare && nuxt dev playground",
     "dev:build": "nuxt build playground",
-    "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxt prepare playground",
-    "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
+    "dev:prepare": "nuxt-module-build prepare && nuxt prepare playground",
+    "release": "pnpm lint && pnpm test && pnpm prepack && changelogen --release && pnpm publish && git push --follow-tags",
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest watch",
-    "test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit"
+    "test:types": "vue-tsc -b --noEmit && cd playground && vue-tsc --noEmit"
   },
   "dependencies": {
     "@nuxt/kit": "^4.6.4"
@@ -35,13 +44,14 @@
   "devDependencies": {
     "@nuxt/devtools": "^3.4.2",
     "@nuxt/eslint-config": "^1.17.0",
-    "@nuxt/module-builder": "^1.0.3",
+    "@nuxt/module-builder": "^2.0.0-alpha.1",
     "@nuxt/schema": "^4.6.4",
     "@nuxt/test-utils": "^4.3.3",
     "@types/node": "latest",
     "changelogen": "^0.6.2",
     "eslint": "^10.12.0",
     "nuxt": "^4.6.4",
+    "tsdown": "^0.23.7",
     "typescript": "^6.0.3",
     "vitest": "^5.0.3",
     "vue-tsc": "^3.3.12"
