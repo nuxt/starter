@@ -19,7 +19,6 @@
     "v4-compat",
     "v5-nightly",
     "content",
-    "doc-driven",
     "layer",
     "module-devtools",
     "module"
