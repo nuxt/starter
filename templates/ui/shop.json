@@ -1,0 +1,9 @@
+{
+  "$schema": "../../template.schema.json",
+  "name": "ui-shop",
+  "defaultDir": "nuxt-app",
+  "url": "https://ui.nuxt.com",
+  "tar": "https://codeload.github.com/nuxt-ui-templates/shop/tar.gz/refs/heads/main",
+  "repo": "nuxt-ui-templates/shop",
+  "branch": "main"
+}
